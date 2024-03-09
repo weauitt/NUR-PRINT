@@ -1,0 +1,51 @@
+.Header {
+  height: 65px;
+  overflow: hidden;
+}
+
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.AllNavigation {
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+
+.Logo {
+  width: 52px;
+  margin: 23px;
+}
+
+.Navigation {
+  color: #ff9900;
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  font-size: 20px;
+}
+
+.Contacts {
+  align-items: center;
+}
+
+.Inst {
+  width: 27px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.Tg {
+  width: 26px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.WhtsApp {
+  width: 27px;
+  margin-right: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=Header.module.css.map */

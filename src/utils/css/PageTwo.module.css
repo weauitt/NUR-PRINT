@@ -1,0 +1,189 @@
+.acticleTwo {
+  background-color: rgb(29, 31, 38);
+  overflow: hidden;
+  position: relative;
+  max-height: 3150px;
+}
+
+.Topic {
+  transform: translateY(71px);
+}
+
+.NurPrint {
+  font-family: "Mulish", sans-serif;
+  font-size: 55px;
+  color: orange;
+  transform: translateY(80px);
+  margin-left: 15px;
+  text-align: center;
+}
+
+.WhatWeDo {
+  color: white;
+  margin-top: 220px;
+  overflow: hidden;
+}
+
+.TopicWhatWeDo {
+  font-family: "Mulish", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+.SectionOne {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ChapterOne {
+  margin-top: 55px;
+  margin-left: 58px;
+  margin-right: 90px;
+  line-height: 1.5;
+  z-index: 2;
+}
+.ChapterOne .TopicChapterOne {
+  color: orange;
+  font-family: "Mulish", sans-serif;
+  font-size: 28px;
+}
+.ChapterOne .DescChapterOne {
+  font-size: 17px;
+  margin-top: 15px;
+  font-family: "Mulish", sans-serif;
+}
+
+.ChapterTwo {
+  overflow: hidden;
+  margin-right: 60px;
+  margin-top: 30px;
+  line-height: 1.5;
+  z-index: 2;
+}
+.ChapterTwo .TopicChapterTwo {
+  color: orange;
+  font-family: "Mulish", sans-serif;
+  font-size: 28px;
+}
+.ChapterTwo .DescChapterTwo {
+  font-size: 17px;
+  margin-top: 15px;
+  font-family: "Mulish", sans-serif;
+}
+
+.Lightning {
+  width: 980px;
+  z-index: 1;
+  position: absolute;
+  transform: translateY(300px);
+}
+
+.SectionTwo {
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+  position: relative;
+  z-index: 2;
+}
+
+.ChapterThree {
+  margin-top: 55px;
+  margin-left: 58px;
+  margin-right: 77px;
+  line-height: 1.5;
+  z-index: 2;
+}
+.ChapterThree .TopicChapterThree {
+  color: orange;
+  font-family: "Mulish", sans-serif;
+  font-size: 28px;
+}
+.ChapterThree .DescChapterThree {
+  font-size: 17px;
+  margin-top: 15px;
+  font-family: "Mulish", sans-serif;
+}
+
+.ChapterFour {
+  margin-right: 60px;
+  margin-top: 55px;
+  line-height: 1.5;
+  z-index: 2;
+}
+.ChapterFour .TopicChapterFour {
+  color: orange;
+  font-family: "Mulish", sans-serif;
+  font-size: 28px;
+}
+.ChapterFour .DescChapterFour {
+  font-size: 17px;
+  margin-top: 15px;
+  font-family: "Mulish", sans-serif;
+}
+
+.WhatWeDoFooter {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.AndMore {
+  z-index: 2;
+  position: relative;
+}
+
+.InstBtn {
+  position: relative;
+  z-index: 2;
+  font-family: "Mulish", sans-serif;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 43px;
+  color: black;
+  font-weight: bold;
+}
+
+.end {
+  width: 100%;
+  display: block;
+}
+
+@media (max-width: 984px) {
+  .NurPrint {
+    font-size: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .TopicWhatWeDo {
+    font-size: 30px;
+  }
+  .SectionOne {
+    flex-direction: column;
+  }
+  .SectionOne .ChapterTwo {
+    margin-left: 58px;
+  }
+  .SectionTwo {
+    flex-direction: column;
+  }
+  .SectionTwo .ChapterFour {
+    margin-left: 58px;
+  }
+  .WhatWeDoFooter {
+    margin-top: 50px;
+  }
+}/*# sourceMappingURL=PageTwo.module.css.map */

@@ -1,0 +1,93 @@
+.Header {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.PodHeader {
+  font-family: 'Mulish', sans-serif;
+  font-size: 22px;
+  height: 100px;
+}
+
+.nurPrint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+
+  .andmore {
+    color: white;
+    background-color: rgb(37, 37, 37);
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 1vw;
+    border: none;
+    border-radius: 30px;
+    padding: 16px;
+  }
+
+  .nurPrintPodText {
+    margin-left: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    
+  }
+
+}
+
+.nurPrintText {
+  color: white;
+  font-size: 110px;
+}
+
+.lamp {
+  width: 680px;
+  height: 712px;
+  z-index: -1;
+  position: absolute;
+
+}
+
+.shapeOne{
+  z-index: -1;
+  position: absolute;
+  top: 1%;
+  height: 1099px;
+  transform: translateX(200px);
+}
+
+.shapeTwo{
+  z-index: -1;
+  position: absolute;
+  top: 1%;
+  right: 56%;
+  height: 715px;
+}
+
+@media (max-width: 387px) {
+  .nurPrint {
+    font-size: 60px !important;
+  }
+}
+
+@media (max-width: 351px) {
+  .nurPrint {
+    font-size: 50px !important;
+  }
+}
+
+@media (max-width: 517px) {
+  .nurPrint {
+    font-size: 70px;
+  }
+}

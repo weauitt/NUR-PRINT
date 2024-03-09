@@ -1,0 +1,41 @@
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  height: 300px;
+}
+
+.NurPrint {
+  width: 100px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: right;
+}
+
+.OurContacts {
+  font-size: 13px;
+  margin-left: 40px;
+}
+
+.Desc {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.Icons {
+  display: flex;
+  justify-content: right;
+  margin-right: 2%;
+}
+
+.numbers {
+  cursor: pointer;
+  margin-right: 12px;
+  width: 25px;
+}/*# sourceMappingURL=Footer.module.css.map */

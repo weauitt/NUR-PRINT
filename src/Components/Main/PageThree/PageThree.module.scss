@@ -1,0 +1,126 @@
+.articleThree{
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.shapeOne {
+  width: 400px; 
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.shapeTwo{
+  width: 400px; 
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+  transform: rotate(-125deg);
+}
+
+.HowWeWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.Numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 80px;
+  overflow: hidden;
+  position: relative;
+}
+
+.NumTopic {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Mulish', sans-serif;
+  position: relative;
+}
+
+.NumDesc {
+  font-family: 'Mulish', sans-serif;
+  width: 150px;
+  position: relative;
+}
+
+.footer {
+  z-index: -1;
+  position: relative;
+  margin-top: 50px;
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.BtnInst {
+  font-family: 'Mulish', sans-serif;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.90);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.BtnWhatsApp {
+  font-family: 'Mulish', sans-serif;
+  margin-top: 7px;
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.90);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+@media(max-width: 800px) {
+  .Numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Section {
+    margin-bottom: 50px;
+  }
+
+  .img {
+    width: 170px;
+  }
+
+  .NumTopic {
+    display: flex;
+    justify-content: center;
+  }
+
+  .shapeTwo{
+    left: 10%;
+    top: 60%;
+  }
+
+}
