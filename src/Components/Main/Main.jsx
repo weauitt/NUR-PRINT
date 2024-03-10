@@ -2,7 +2,7 @@ import React from 'react'
 import PageOne from './PageOne/PageOne'
 import PageTwo from './PageTwo/PageTwo'
 import PageThree from './PageThree/PageThree'
-// import PageFour from './PageFour/PageFour'
+import PageFour from './PageFour/PageFour'
 import Footer from '../Footer/Footer'
 
 function Main() {
@@ -11,7 +11,7 @@ function Main() {
       <PageOne/>
       <PageTwo />
       <PageThree/>
-      {/* <PageFour/> */}
+      <PageFour/>
       <Footer/>
     </main>
   )

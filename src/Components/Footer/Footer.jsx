@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../../utils/css/Footer.module.css'
-import LogoWhite from '../../img/LogoWhite.svg'
 import Instagram from '../../img/Footer/instagram.svg'
 import Whatsapp from '../../img/Footer/whatsapp.svg'
 import Telegram from '../../img/Footer/telegram.svg'
@@ -22,7 +21,7 @@ const icons = [
 function Footer() {
   return (
     <footer className={styles.Footer}>
-  <img className={styles.NurPrint} src={LogoWhite} alt="logo" />
+  <img className={styles.NurPrint}  alt="logo" />
       <section className={styles.OurContacts}>
         <p style={{ marginBottom: '5px', fontSize: '18px'}}>Наши контакты</p>
         <a href="tel:+996 707 735 510" style={{ color: 'white' }} >+996 707 735 510</a>

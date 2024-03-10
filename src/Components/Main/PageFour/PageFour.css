@@ -1,0 +1,18 @@
+.karusel{
+padding-bottom: 60px;
+}
+
+.our-works{
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.image{
+  width: 800px;
+  margin: auto;
+  border-radius: 10px;
+}
