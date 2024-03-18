@@ -7,16 +7,29 @@ import imgFour from '../../../img/PageFour/imgFour.jpg'
 import imgFive from '../../../img/PageFour/imgFive.jpg'
 import imgSix from '../../../img/PageFour/imgSix.jpg'
 import imgSeven from '../../../img/PageFour/imgSeven.jpg'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import imgEight from '../../../img/PageFour/imgEight.jpg'
+import imgNine from '../../../img/PageFour/imgNine.jpg'
+import imgTen from '../../../img/PageFour/imgTen.jpg'
+import "./slick.css";
+import "./slick-theme.css";
 import Slider from 'react-slick';
 
-function Arrow(props) {
+function LeftArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{ ...style, display: "block", position: "absolute", left: "6px", zIndex: "2" }}
+      onClick={onClick}
+    />
+  );
+}
+function RightArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", position: "absolute", right: "6px" }}
       onClick={onClick}
     />
   );
@@ -25,14 +38,41 @@ function Arrow(props) {
 function PageFour() {
   var settings = {
     dots: true,
+    dotclass: "slick-slider slick-dots",
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    speed: 700,
+    slidesToShow: 3,
+    slidesToScroll: 2,
     initialSlide: 0,
-    nextArrow: <Arrow />,
-    prevArrow: <Arrow />,
     
+    nextArrow: <RightArrow />,
+    prevArrow: <LeftArrow />,
+    responsive: [
+      {
+        breakpoint: 1256,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 845,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   const images = [
@@ -64,14 +104,26 @@ function PageFour() {
       id: 7,
       img: imgSeven
     },
+    {
+      id: 8,
+      img: imgEight
+    },
+    {
+      id: 9,
+      img: imgNine
+    },
+    {
+      id: 10,
+      img: imgTen
+    },
   ]
 
   return (
-    <article>
+    <article style={{marginTop: "77px"}}>
       <h1 className='our-works'>Наши работы</h1>
 
       <section className='karusel'>
-        <Slider {...settings} >
+        <Slider {...settings}   >
           {images.map(img => (
             <div key={img.id} >
               <img src={img.img} alt={img.id} className='image' />

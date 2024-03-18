@@ -5,7 +5,6 @@ import NumTwo from '../../../img/PageThree/NumTwo.svg'
 import NumThree from '../../../img/PageThree/NumThree.svg'
 import NumFour from '../../../img/PageThree/NumFour.svg'
 import NumFive from '../../../img/PageThree/NumFive.svg'
-import achive from '../../../img/PageThree/achive.svg'
 import shapeOne from '../../../img/PageThree/shapeOne.svg'
 import shapeTwo from '../../../img/PageThree/shapeTwo.svg'
 

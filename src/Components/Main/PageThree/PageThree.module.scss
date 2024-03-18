@@ -2,7 +2,6 @@
   position: relative;
   text-align: center;
   overflow: hidden;
-  height: 800px;
 }
 
 .shapeOne {
@@ -24,7 +23,7 @@
   height: auto;
   position: absolute;
   z-index: -1;
-  top: 50%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
