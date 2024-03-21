@@ -1,3 +1,32 @@
+$maxWidth: 1280;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 270px) {
+    font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+@mixin adaptiv-padding($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 270px) {
+    padding: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+@mixin adaptiv-width($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 270px) {
+    width: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
 .acticleTwo {
   background-color: rgb(29 31 38);
   overflow: hidden;
@@ -13,8 +42,8 @@
   font-size: 55px;
   color: orange;
   transform: translateY(80px);
-  margin-left: 15px;
   text-align: center;
+  @include adaptiv-font(45, 16);
 }
 
 .WhatWeDo {
@@ -25,11 +54,11 @@
 
 .TopicWhatWeDo {
   font-family: 'Mulish', sans-serif;
-  font-size: 40px;
   text-align: center;
   font-weight: bold;
   position: relative;
   z-index: 2;
+  @include adaptiv-font(30, 13);
 }
 
 .SectionOne {
@@ -41,50 +70,50 @@
 }
 
 .ChapterOne {
-  margin-top: 55px;
   margin-left: 58px;
   margin-right: 90px;
-  line-height: 1.5;
+  line-height: 1.7;
   z-index: 2;
 
   .TopicChapterOne {
     color: orange;
     font-family: 'Mulish', sans-serif;
-    font-size: 28px;
+    @include adaptiv-font(25, 11);
   }
 
   .DescChapterOne {
-    font-size: 17px;
     margin-top: 15px;
     font-family: 'Mulish', sans-serif;
+    @include adaptiv-font(15, 9);
   }
 }
 
 .ChapterTwo {
   overflow: hidden;
   margin-right: 60px;
-  margin-top: 30px;
-  line-height: 1.5;
+  margin-left: 60px;
+  line-height: 1.7;
   z-index: 2;
 
   .TopicChapterTwo {
     color: orange;
     font-family: 'Mulish', sans-serif;
-    font-size: 28px;
+    @include adaptiv-font(25, 11);
   }
 
   .DescChapterTwo {
     font-size: 17px;
     margin-top: 15px;
     font-family: 'Mulish', sans-serif;
+    @include adaptiv-font(15, 9);
   }
 }
 
 .Lightning {
-  width: 980px;
   z-index: 1;
   position: absolute;
   transform: translateY(300px);
+  @include adaptiv-width(700, 200)
 }
 
 .SectionTwo {
@@ -96,41 +125,43 @@
 }
 
 .ChapterThree {
-  margin-top: 55px;
   margin-left: 58px;
   margin-right: 77px;
-  line-height: 1.5;
+  line-height: 1.7;
   z-index: 2;
+  margin-top: 30px;
 
   .TopicChapterThree {
     color: orange;
     font-family: 'Mulish', sans-serif;
-    font-size: 28px;
+    @include adaptiv-font(25, 11);
   }
 
   .DescChapterThree {
-    font-size: 17px;
     margin-top: 15px;
     font-family: 'Mulish', sans-serif;
+    @include adaptiv-font(15, 9);
   }
 }
 
 .ChapterFour {
   margin-right: 60px;
-  margin-top: 55px;
-  line-height: 1.5;
+  margin-left: 60px;
+  line-height: 1.7;
   z-index: 2;
+  margin-top: 30px;
 
   .TopicChapterFour {
     color: orange;
     font-family: 'Mulish', sans-serif;
-    font-size: 28px;
+    @include adaptiv-font(25, 11);
   }
 
   .DescChapterFour {
     font-size: 17px;
     margin-top: 15px;
     font-family: 'Mulish', sans-serif;
+    @include adaptiv-font(15, 9);
   }
 }
 
@@ -145,9 +176,10 @@
   font-size: 20px;
 }
 
-.AndMore{
+.AndMore {
   z-index: 2;
   position: relative;
+  @include adaptiv-font(19, 11);
 }
 
 .InstBtn {
@@ -162,43 +194,84 @@
   border-radius: 43px;
   color: black;
   font-weight: bold;
+  @include adaptiv-padding(13, 7);
+  @include adaptiv-font(15, 7);
 }
 
-.end{
+.end {
   width: 100%;
   display: block;
 }
 
-@media(max-width: 984px) {
-  .NurPrint {
-    font-size: 40px;
-  }
-}
-
-@media(max-width: 800px) {
-  .TopicWhatWeDo {
-    font-size: 30px;
-  }
-
+@media(max-width: 1023px) {
   .SectionOne {
     flex-direction: column;
-
-    .ChapterTwo {
-      margin-left: 58px;
-    }
   }
 
   .SectionTwo {
     flex-direction: column;
-
-    .ChapterFour {
-      margin-left: 58px;
-
-    }
+    min-height: 425px;
   }
 
   .WhatWeDoFooter {
     margin-top: 50px;
   }
+
+  .ChapterOne {
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .ChapterTwo {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .ChapterThree {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .ChapterFour {
+    margin-top: 50px;
+    text-align: center;
+  }
 }
 
+@media(max-width: 637px) {
+  .Topic {
+    transform: translateY(0px);
+  }
+
+  .WhatWeDo {
+    margin-top: 130px;
+  }
+
+
+  .SectionOne {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .ChapterOne {
+    margin-left: 31px;
+    margin-right: 10px;
+  }
+
+  .ChapterTwo {
+    margin-left: 31px;
+    margin-right: 10px;
+  }
+
+  .ChapterThree {
+    margin-left: 31px;
+    margin-right: 10px;
+  }
+
+  .ChapterFour {
+    margin-left: 31px;
+    margin-right: 10px;
+  }
+}

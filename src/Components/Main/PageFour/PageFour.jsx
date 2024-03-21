@@ -119,7 +119,7 @@ function PageFour() {
   ]
 
   return (
-    <article style={{marginTop: "77px"}}>
+    <article style={{marginTop: "7rem"}}>
       <h1 className='our-works'>Наши работы</h1>
 
       <section className='karusel'>

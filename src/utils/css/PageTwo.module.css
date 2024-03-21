@@ -13,8 +13,12 @@
   font-size: 55px;
   color: orange;
   transform: translateY(80px);
-  margin-left: 15px;
   text-align: center;
+}
+@media (min-width: 270px) {
+  .NurPrint {
+    font-size: calc(16px + 49.3 * (100vw - 300px) / 1280);
+  }
 }
 
 .WhatWeDo {
@@ -25,11 +29,15 @@
 
 .TopicWhatWeDo {
   font-family: "Mulish", sans-serif;
-  font-size: 40px;
   text-align: center;
   font-weight: bold;
   position: relative;
   z-index: 2;
+}
+@media (min-width: 270px) {
+  .TopicWhatWeDo {
+    font-size: calc(13px + 28.9 * (100vw - 300px) / 1280);
+  }
 }
 
 .SectionOne {
@@ -41,46 +49,66 @@
 }
 
 .ChapterOne {
-  margin-top: 55px;
   margin-left: 58px;
   margin-right: 90px;
-  line-height: 1.5;
+  line-height: 1.7;
   z-index: 2;
 }
 .ChapterOne .TopicChapterOne {
   color: orange;
   font-family: "Mulish", sans-serif;
-  font-size: 28px;
+}
+@media (min-width: 270px) {
+  .ChapterOne .TopicChapterOne {
+    font-size: calc(11px + 23.8 * (100vw - 300px) / 1280);
+  }
 }
 .ChapterOne .DescChapterOne {
-  font-size: 17px;
   margin-top: 15px;
   font-family: "Mulish", sans-serif;
+}
+@media (min-width: 270px) {
+  .ChapterOne .DescChapterOne {
+    font-size: calc(9px + 10.2 * (100vw - 300px) / 1280);
+  }
 }
 
 .ChapterTwo {
   overflow: hidden;
   margin-right: 60px;
-  margin-top: 30px;
-  line-height: 1.5;
+  margin-left: 60px;
+  line-height: 1.7;
   z-index: 2;
 }
 .ChapterTwo .TopicChapterTwo {
   color: orange;
   font-family: "Mulish", sans-serif;
-  font-size: 28px;
+}
+@media (min-width: 270px) {
+  .ChapterTwo .TopicChapterTwo {
+    font-size: calc(11px + 23.8 * (100vw - 300px) / 1280);
+  }
 }
 .ChapterTwo .DescChapterTwo {
   font-size: 17px;
   margin-top: 15px;
   font-family: "Mulish", sans-serif;
 }
+@media (min-width: 270px) {
+  .ChapterTwo .DescChapterTwo {
+    font-size: calc(9px + 10.2 * (100vw - 300px) / 1280);
+  }
+}
 
 .Lightning {
-  width: 980px;
   z-index: 1;
   position: absolute;
   transform: translateY(300px);
+}
+@media (min-width: 270px) {
+  .Lightning {
+    width: calc(200px + 850 * (100vw - 300px) / 1280);
+  }
 }
 
 .SectionTwo {
@@ -92,38 +120,56 @@
 }
 
 .ChapterThree {
-  margin-top: 55px;
   margin-left: 58px;
   margin-right: 77px;
-  line-height: 1.5;
+  line-height: 1.7;
   z-index: 2;
+  margin-top: 30px;
 }
 .ChapterThree .TopicChapterThree {
   color: orange;
   font-family: "Mulish", sans-serif;
-  font-size: 28px;
+}
+@media (min-width: 270px) {
+  .ChapterThree .TopicChapterThree {
+    font-size: calc(11px + 23.8 * (100vw - 300px) / 1280);
+  }
 }
 .ChapterThree .DescChapterThree {
-  font-size: 17px;
   margin-top: 15px;
   font-family: "Mulish", sans-serif;
+}
+@media (min-width: 270px) {
+  .ChapterThree .DescChapterThree {
+    font-size: calc(9px + 10.2 * (100vw - 300px) / 1280);
+  }
 }
 
 .ChapterFour {
   margin-right: 60px;
-  margin-top: 55px;
-  line-height: 1.5;
+  margin-left: 60px;
+  line-height: 1.7;
   z-index: 2;
+  margin-top: 30px;
 }
 .ChapterFour .TopicChapterFour {
   color: orange;
   font-family: "Mulish", sans-serif;
-  font-size: 28px;
+}
+@media (min-width: 270px) {
+  .ChapterFour .TopicChapterFour {
+    font-size: calc(11px + 23.8 * (100vw - 300px) / 1280);
+  }
 }
 .ChapterFour .DescChapterFour {
   font-size: 17px;
   margin-top: 15px;
   font-family: "Mulish", sans-serif;
+}
+@media (min-width: 270px) {
+  .ChapterFour .DescChapterFour {
+    font-size: calc(9px + 10.2 * (100vw - 300px) / 1280);
+  }
 }
 
 .WhatWeDoFooter {
@@ -141,6 +187,11 @@
   z-index: 2;
   position: relative;
 }
+@media (min-width: 270px) {
+  .AndMore {
+    font-size: calc(11px + 13.6 * (100vw - 300px) / 1280);
+  }
+}
 
 .InstBtn {
   position: relative;
@@ -155,34 +206,77 @@
   color: black;
   font-weight: bold;
 }
+@media (min-width: 270px) {
+  .InstBtn {
+    padding: calc(7px + 10.2 * (100vw - 300px) / 1280);
+  }
+}
+@media (min-width: 270px) {
+  .InstBtn {
+    font-size: calc(7px + 13.6 * (100vw - 300px) / 1280);
+  }
+}
 
 .end {
   width: 100%;
   display: block;
 }
 
-@media (max-width: 984px) {
-  .NurPrint {
-    font-size: 40px;
-  }
-}
-@media (max-width: 800px) {
-  .TopicWhatWeDo {
-    font-size: 30px;
-  }
+@media (max-width: 1023px) {
   .SectionOne {
     flex-direction: column;
   }
-  .SectionOne .ChapterTwo {
-    margin-left: 58px;
-  }
   .SectionTwo {
     flex-direction: column;
-  }
-  .SectionTwo .ChapterFour {
-    margin-left: 58px;
+    min-height: 425px;
   }
   .WhatWeDoFooter {
     margin-top: 50px;
+  }
+  .ChapterOne {
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .ChapterTwo {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .ChapterThree {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .ChapterFour {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
+@media (max-width: 637px) {
+  .Topic {
+    transform: translateY(0px);
+  }
+  .WhatWeDo {
+    margin-top: 130px;
+  }
+  .SectionOne {
+    margin-top: 0;
+  }
+}
+@media (max-width: 500px) {
+  .ChapterOne {
+    margin-left: 31px;
+    margin-right: 10px;
+  }
+  .ChapterTwo {
+    margin-left: 31px;
+    margin-right: 10px;
+  }
+  .ChapterThree {
+    margin-left: 31px;
+    margin-right: 10px;
+  }
+  .ChapterFour {
+    margin-left: 31px;
+    margin-right: 10px;
   }
 }/*# sourceMappingURL=PageTwo.module.css.map */

@@ -1,3 +1,20 @@
+$maxWidth: 1280;
+@mixin adaptiv-font($pcSize, $mobSize) {
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize * 0.7;
+  @media (min-width: 270px) {
+		font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+	}
+}
+
+@mixin adaptiv-padding($pcSize, $mobSize) {
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize * 0.7;
+  @media (min-width: 270px) {
+		padding: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+	}
+}
+
 .Header {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 80px;
@@ -20,8 +37,8 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 50px;
-  margin-left: 50px;
-
+  color: white;
+  
   .andmore {
     color: white;
     background-color: rgb(37, 37, 37);
@@ -32,7 +49,8 @@
     margin-left: 1vw;
     border: none;
     border-radius: 30px;
-    padding: 16px;
+    @include adaptiv-font(17, 11);
+    @include adaptiv-padding(13, 10);
   }
 
   .nurPrintPodText {
@@ -40,22 +58,13 @@
     font-family: 'Nunito Sans', sans-serif;
     font-size: 25px;
     color: white;
-    
+    @include adaptiv-font(25, 14);
   }
 
 }
 
 .nurPrintText {
-  color: white;
-  font-size: 110px;
-}
-
-.lamp {
-  width: 680px;
-  height: 712px;
-  z-index: -1;
-  position: absolute;
-
+  @include adaptiv-font(100, 50);
 }
 
 .shapeOne{
@@ -74,20 +83,64 @@
   height: 715px;
 }
 
-@media (max-width: 387px) {
-  .nurPrint {
-    font-size: 60px !important;
-  }
-}
 
-@media (max-width: 351px) {
-  .nurPrint {
-    font-size: 50px !important;
-  }
-}
+// @media (max-width: 617px){
+//   .nurPrintText{
+//     font-size: 100px;
+//   }
+//   .nurPrintPodText{
+//     font-size: 24px!important;
+//   }
+//   .andmore{
+//     font-size: 16px!important;
+//   }
+// }
 
-@media (max-width: 517px) {
-  .nurPrint {
-    font-size: 70px;
-  }
-}
+// @media (max-width: 563px){
+//   .nurPrintText{
+//     font-size: 90px;
+//   }
+//   .nurPrintPodText{
+//     font-size: 22px!important;
+//   }
+//   .andmore{
+//     font-size: 14px!important;
+//   }
+// }
+
+// @media (max-width: 500px){
+//   .nurPrintText{
+//     font-size: 80px;
+//   }
+//   .nurPrintPodText{
+//     font-size: 20px!important;
+//   }
+//   .andmore{
+//     font-size: 14px!important;
+//   }
+// }
+
+// @media (max-width: 447px){
+//   .nurPrintText{
+//     font-size: 70px;
+//   }
+//   .nurPrintPodText{
+//     font-size: 18px!important;
+//   }
+//   .andmore{
+//     font-size: 12px!important;
+//   }
+// }
+
+// @media (max-width: 394px){
+//   .nurPrintText{
+//     font-size: 60px;
+//   }
+//   .nurPrintPodText{
+//     font-size: 18px!important;
+//   }
+//   .andmore{
+//     font-size: 12px!important;
+//   }
+// }
+
