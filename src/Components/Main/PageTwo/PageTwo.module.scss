@@ -78,7 +78,7 @@ $maxWidth: 1280;
   .TopicChapterOne {
     color: orange;
     font-family: 'Mulish', sans-serif;
-    @include adaptiv-font(25, 11);
+    @include adaptiv-font(30, 11);
   }
 
   .DescChapterOne {
@@ -98,7 +98,7 @@ $maxWidth: 1280;
   .TopicChapterTwo {
     color: orange;
     font-family: 'Mulish', sans-serif;
-    @include adaptiv-font(25, 11);
+    @include adaptiv-font(30, 11);
   }
 
   .DescChapterTwo {
@@ -134,7 +134,7 @@ $maxWidth: 1280;
   .TopicChapterThree {
     color: orange;
     font-family: 'Mulish', sans-serif;
-    @include adaptiv-font(25, 11);
+    @include adaptiv-font(30, 11);
   }
 
   .DescChapterThree {
@@ -154,7 +154,7 @@ $maxWidth: 1280;
   .TopicChapterFour {
     color: orange;
     font-family: 'Mulish', sans-serif;
-    @include adaptiv-font(25, 11);
+    @include adaptiv-font(30, 15);
   }
 
   .DescChapterFour {
@@ -203,7 +203,7 @@ $maxWidth: 1280;
   display: block;
 }
 
-@media(max-width: 1023px) {
+@media(max-width: 700px) {
   .SectionOne {
     flex-direction: column;
   }
@@ -219,23 +219,11 @@ $maxWidth: 1280;
 
   .ChapterOne {
     margin-top: 50px;
-    text-align: center;
     vertical-align: middle;
   }
 
-  .ChapterTwo {
+  .ChapterTwo, .ChapterThree, .ChapterFour {
     margin-top: 50px;
-    text-align: center;
-  }
-
-  .ChapterThree {
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  .ChapterFour {
-    margin-top: 50px;
-    text-align: center;
   }
 }
 
@@ -248,29 +236,13 @@ $maxWidth: 1280;
     margin-top: 130px;
   }
 
-
   .SectionOne {
     margin-top: 0;
   }
 }
 
 @media (max-width: 500px) {
-  .ChapterOne {
-    margin-left: 31px;
-    margin-right: 10px;
-  }
-
-  .ChapterTwo {
-    margin-left: 31px;
-    margin-right: 10px;
-  }
-
-  .ChapterThree {
-    margin-left: 31px;
-    margin-right: 10px;
-  }
-
-  .ChapterFour {
+  .ChapterOne, .ChapterTwo, .ChapterThree, .ChapterFour {
     margin-left: 31px;
     margin-right: 10px;
   }

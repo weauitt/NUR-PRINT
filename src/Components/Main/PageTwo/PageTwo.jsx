@@ -14,7 +14,7 @@ function PageTwo() {
           <header className={styles.TopicWhatWeDo}>Мы творим рекламные шедевры, вывески <br /> что олицетворяют ваш бизнес</header>
           <section className={styles.SectionOne}>
             <section className={styles.ChapterOne}>
-              <h1 className={styles.TopicChapterOne}>Объемные световые буквы</h1>
+              <h1 className={styles.TopicChapterOne}>Объемные буквы</h1>
               <p className={styles.DescChapterOne}>Наши объемные световые буквы придают вашему бренду или мероприятию эффектный и современный вид. Эти буквы идеальны для витрин, логотипов компаний и создания выразительных архитектурных элементов. Наши световые буквы не только служат источником освещения, но и становятся ярким акцентом в темное время суток, привлекая внимание прохожих и создавая уютную атмосферу. С множеством вариантов цветов и стилей, мы гарантируем, что наши объемные световые буквы подчеркнут вашу уникальность</p>
             </section>
             <section className={styles.ChapterTwo}>

@@ -42,6 +42,11 @@
   font-size: 60px;
   margin-top: 50px;
 }
+@media (min-width: 270px) {
+  .HowWeWork {
+    font-size: calc(30px + 51 * (100vw - 300px) / 1280);
+  }
+}
 
 .Numbers {
   display: flex;
@@ -61,8 +66,12 @@
 
 .NumDesc {
   font-family: "Mulish", sans-serif;
-  width: 150px;
+  width: 226px;
   position: relative;
+}
+
+.img {
+  width: 120px;
 }
 
 .footer {
@@ -106,9 +115,13 @@
   .Section {
     margin-bottom: 50px;
   }
+}
+@media (max-width: 800px) and (max-width: 800px) {
   .img {
-    width: 170px;
+    width: calc(80px + 153 * (100vw - 300px) / 1280);
   }
+}
+@media (max-width: 800px) {
   .NumTopic {
     display: flex;
     justify-content: center;
