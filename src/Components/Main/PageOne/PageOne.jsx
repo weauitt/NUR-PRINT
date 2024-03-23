@@ -20,7 +20,7 @@ function PageOne() {
           <p className={styles.nurPrintPodText}>Объемные буквы, Баннеры, Стенды</p>
           <button className={styles.andmore} onClick={handleScrollDown}>Подробнее</button>
         </section>
-          <img className={styles.shapeOne} alt="shapeOne" src={shapeOne}/>
+          <img className={styles.shapeOne} alt="shapeTwo" src={shapeOne}/>
           <img className={styles.shapeTwo} alt="shapeTwo" src={shapeTwo}/>
       </section>
     </article>

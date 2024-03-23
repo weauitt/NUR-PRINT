@@ -42,7 +42,7 @@
   font-size: 60px;
   margin-top: 50px;
 }
-@media (min-width: 270px) {
+@media (min-width: 270px) and (max-width: 1400px) {
   .HowWeWork {
     font-size: calc(30px + 51 * (100vw - 300px) / 1280);
   }
@@ -66,7 +66,7 @@
 
 .NumDesc {
   font-family: "Mulish", sans-serif;
-  width: 226px;
+  width: 150px;
   position: relative;
 }
 
@@ -83,6 +83,12 @@
   align-items: center;
   flex-direction: column;
   font-size: 20px;
+}
+
+@media (min-width: 270px) and (max-width: 1400px) {
+  .btnText {
+    font-size: calc(17px + 5.1 * (100vw - 300px) / 1280);
+  }
 }
 
 .BtnInst {
@@ -118,7 +124,7 @@
 }
 @media (max-width: 800px) and (max-width: 800px) {
   .img {
-    width: calc(80px + 153 * (100vw - 300px) / 1280);
+    width: calc(100px + 119 * (100vw - 300px) / 1280);
   }
 }
 @media (max-width: 800px) {

@@ -10,7 +10,7 @@
     font-size: 20px;
     line-height: 0;
     border-radius: 50px;
-    background-color: rgb(29, 31, 38)!important;
+    background-color: rgb(29, 31, 38) !important;
     position: absolute;
     top: 50%;
     display: block;
@@ -102,7 +102,7 @@
 
 .slick-slider .slick-dots {
     font-size: 10px !important;
-    bottom: -55px !important;
+    bottom: 38px !important;
 }
 
 
@@ -199,18 +199,38 @@
 .slick-arrow.slick-next,
 .slick-arrow.slick-prev {
     top: 6em;
-    text-align: center; /* Центрируем содержимое */
-    width: 30px; /* Ширина контейнера стрелки */
-    height: 30px; /* Высота контейнера стрелки */
+    text-align: center;
+    width: 30px;
+    height: 30px;
 }
 
 .slick-arrow.slick-next:before,
 .slick-arrow.slick-prev:before {
-    display: inline-block; /* Размещаем стрелку как блочный элемент */
-    vertical-align: middle; /* Выравниваем стрелку по вертикали по середине контейнера */
-    line-height: 30px; /* Устанавливаем высоту линии равной высоте контейнера */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
 }
 
-.slick-list{
+.slick-list {
     height: 310px;
+}
+
+@media screen and (max-width: 422px) {
+
+    .slick-arrow.slick-next,
+    .slick-arrow.slick-prev {
+        top: 8.5em;
+        padding: calc(-15px + (-10 - 15) * ((100vw - 270px) / (1280 - 320)));
+    }
+    .slick-list {
+        height: 364px;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 390px) {
+
+    .slick-arrow.slick-next,
+    .slick-arrow.slick-prev {
+        top: 7.5em;
+    }
 }

@@ -50,7 +50,7 @@ function PageThree() {
         </section>
       </div>
       <footer className={styles.footer}>
-        <h3>Или свяжитесь напрямую</h3>
+        <h3 className={styles.btnText}>Или свяжитесь напрямую</h3>
         <a href="https://www.instagram.com/nurprint_kg/" target="_blank" rel="noopener noreferrer">
           <button className={styles.BtnInst}>Instagram</button>
         </a>

@@ -2,8 +2,16 @@ $maxWidth: 1280;
 @mixin adaptiv-font($pcSize, $mobSize) {
 	$addSize: $pcSize - $mobSize;
 	$addMobSize: $addSize + $addSize * 0.7;
-  @media (min-width: 270px) {
+  @media (min-width: 270px) and (max-width: 1400px) {
 		font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+	}
+}
+
+@mixin adaptiv-padding($pcSize, $mobSize) {
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $addSize + $addSize * 0.7;
+  @media (min-width: 270px) {
+		padding: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
 	}
 }
 
@@ -41,6 +49,7 @@ $maxWidth: 1280;
   
   .andmore {
     color: white;
+    cursor: pointer;
     background-color: rgb(37, 37, 37);
     font-size: 16px;
     font-family: 'Nunito Sans', sans-serif;
@@ -79,10 +88,17 @@ $maxWidth: 1280;
   z-index: -1;
   position: absolute;
   top: 1%;
-  right: 56%;
-  height: 715px;
+  height: 882px;
+  right: 38%;
 }
 
+.shapeThree{
+  z-index: -1;
+  position: absolute;
+  top: 1%;
+  height: 615px;
+  left: 35%;
+}
 
 // @media (max-width: 617px){
 //   .nurPrintText{

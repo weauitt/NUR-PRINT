@@ -49,7 +49,7 @@ function PageFour() {
     prevArrow: <LeftArrow />,
     responsive: [
       {
-        breakpoint: 1256,
+        breakpoint: 1220,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -58,7 +58,7 @@ function PageFour() {
         }
       },
       {
-        breakpoint: 845,
+        breakpoint: 828,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
