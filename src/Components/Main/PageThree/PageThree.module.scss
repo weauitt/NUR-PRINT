@@ -12,7 +12,7 @@ $maxWidth: 1280;
   $addSize: $pcSize - $mobSize;
   $addMobSize: $addSize + $addSize * 0.7;
 
-  @media (max-width: 800px) {
+  @media (min-width: 270px) and (max-width: 3000px) {
     width: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
   }
 }
@@ -21,6 +21,7 @@ $maxWidth: 1280;
   position: relative;
   text-align: center;
   overflow: hidden;
+  padding-top: 4em;
 }
 
 .shapeOne {
@@ -63,45 +64,28 @@ $maxWidth: 1280;
   @include adaptiv-font(60, 30);
 }
 
-.Numbers {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin-top: 80px;
-  overflow: hidden;
-  position: relative;
-}
-
-.NumTopic {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-family: 'Mulish', sans-serif;
-  position: relative;
-}
-
-.NumDesc {
-  font-family: 'Mulish', sans-serif;
-  width: 150px;
-  position: relative;
-}
-
-.img {
-width: 120px;
-}
-
 .footer {
   z-index: 0;
   position: relative;
-  margin-top:127px;
+  margin-top: 70px;
   font-family: 'Mulish', sans-serif;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: space-evenly;
   font-size: 20px;
 }
 
+
+.IphoneInst{
+  @include adaptiv-width(370, 200 );
+}
+
+.ex{
+  flex-direction: column;
+}
+
 .btnText{
-  @include adaptiv-font(20, 17)
+  @include adaptiv-font(28, 17)
 }
 
 .BtnInst {
@@ -124,30 +108,4 @@ width: 120px;
   border: none;
   border-radius: 10px;
   color: white;
-}
-
-@media(max-width: 800px) {
-  .Numbers {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .Section {
-    margin-bottom: 50px;
-  }
-
-  .img {
-    @include adaptiv-width(170, 100 );
-  }
-
-  .NumTopic {
-    display: flex;
-    justify-content: center;
-  }
-
-  .shapeTwo{
-    left: 10%;
-    top: 60%;
-  }
-
 }

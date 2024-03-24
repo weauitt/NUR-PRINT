@@ -2,6 +2,7 @@
   position: relative;
   text-align: center;
   overflow: hidden;
+  padding-top: 4em;
 }
 
 .shapeOne {
@@ -48,46 +49,30 @@
   }
 }
 
-.Numbers {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin-top: 80px;
-  overflow: hidden;
-  position: relative;
-}
-
-.NumTopic {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-family: "Mulish", sans-serif;
-  position: relative;
-}
-
-.NumDesc {
-  font-family: "Mulish", sans-serif;
-  width: 150px;
-  position: relative;
-}
-
-.img {
-  width: 120px;
-}
-
 .footer {
   z-index: 0;
   position: relative;
-  margin-top: 127px;
+  margin-top: 70px;
   font-family: "Mulish", sans-serif;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: space-evenly;
   font-size: 20px;
+}
+
+@media (min-width: 270px) and (max-width: 3000px) {
+  .IphoneInst {
+    width: calc(200px + 289 * (100vw - 300px) / 1280);
+  }
+}
+
+.ex {
+  flex-direction: column;
 }
 
 @media (min-width: 270px) and (max-width: 1400px) {
   .btnText {
-    font-size: calc(17px + 5.1 * (100vw - 300px) / 1280);
+    font-size: calc(17px + 18.7 * (100vw - 300px) / 1280);
   }
 }
 
@@ -111,29 +96,4 @@
   border: none;
   border-radius: 10px;
   color: white;
-}
-
-@media (max-width: 800px) {
-  .Numbers {
-    flex-direction: column;
-    align-items: center;
-  }
-  .Section {
-    margin-bottom: 50px;
-  }
-}
-@media (max-width: 800px) and (max-width: 800px) {
-  .img {
-    width: calc(100px + 119 * (100vw - 300px) / 1280);
-  }
-}
-@media (max-width: 800px) {
-  .NumTopic {
-    display: flex;
-    justify-content: center;
-  }
-  .shapeTwo {
-    left: 10%;
-    top: 60%;
-  }
 }/*# sourceMappingURL=PageThree.module.css.map */
