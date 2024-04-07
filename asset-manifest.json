@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/url/static/css/main.645e3f7b.css",
+    "main.js": "/url/static/js/main.3ca641dd.js",
+    "static/media/Project Name (14).png": "/url/static/media/Project Name (14).72bfc991492d500910b7.png",
+    "static/media/download_image_1711793596008.png": "/url/static/media/download_image_1711793596008.fda9a84d1b91607bfa16.png",
+    "static/media/Frame 3 (7).png": "/url/static/media/Frame 3 (7).b70204d3c59ec0a910c1.png",
+    "static/media/Frame 2 (5).png": "/url/static/media/Frame 2 (5).b871ad454d4b318ce3aa.png",
+    "static/media/imgOne.jpg": "/url/static/media/imgOne.9e8596302a6d7e8d0aec.jpg",
+    "static/media/imgTwo.jpg": "/url/static/media/imgTwo.b7f02bb2e5f4bf961896.jpg",
+    "static/media/imgEight.jpg": "/url/static/media/imgEight.e6b19551847320a77533.jpg",
+    "static/media/imgTen.jpg": "/url/static/media/imgTen.eadbb51c60a39fb4f1d4.jpg",
+    "static/media/imgThree.jpg": "/url/static/media/imgThree.75dd9c736afa47bbe87d.jpg",
+    "static/media/imgFour.jpg": "/url/static/media/imgFour.f785b9778117b5c62f6c.jpg",
+    "static/media/imgFive.jpg": "/url/static/media/imgFive.6d4a6bdf89f6fc418340.jpg",
+    "static/media/imgNine.jpg": "/url/static/media/imgNine.32741ebe5176b9d425e9.jpg",
+    "static/media/imgSix.jpg": "/url/static/media/imgSix.b51821c2d89219d679a9.jpg",
+    "static/media/imgSeven.jpg": "/url/static/media/imgSeven.19ed599293758ad800f2.jpg",
+    "static/media/Group 33.png": "/url/static/media/Group 33.bfd96c61aa1d45fab246.png",
+    "static/media/NumFive.svg": "/url/static/media/NumFive.7887829056279061ac64bd9dfd5441e3.svg",
+    "static/media/Wave SVG (3).svg": "/url/static/media/Wave SVG (3).ddfad9226a85758a49e42b3ab18d61fe.svg",
+    "static/media/NumThree.svg": "/url/static/media/NumThree.785828739f2846c8cf86d55328d46993.svg",
+    "static/media/instagram.svg": "/url/static/media/instagram.b2aea26a2234694fe2aa723a0c2b86ae.svg",
+    "static/media/NumTwo.svg": "/url/static/media/NumTwo.76642212e31af2053e3001aaf2e29821.svg",
+    "static/media/whatsapp.svg": "/url/static/media/whatsapp.09a67077b2386e4f5b7bbca2d0949c81.svg",
+    "static/media/inst.svg": "/url/static/media/inst.fba53741478afef0adef827545f9a276.svg",
+    "static/media/tg.svg": "/url/static/media/tg.d45cb07496cb86c1cceb706ce7078b44.svg",
+    "static/media/NumFour.svg": "/url/static/media/NumFour.74fcc8b4b0c63502bc37cfc7c25bc3b9.svg",
+    "static/media/telegram.svg": "/url/static/media/telegram.6388ae7f311f83853605e2c3de91b1fa.svg",
+    "static/media/NumOne.svg": "/url/static/media/NumOne.17b61de7ec58bbfd70e2629780fe6c94.svg",
+    "index.html": "/url/index.html",
+    "main.645e3f7b.css.map": "/url/static/css/main.645e3f7b.css.map",
+    "main.3ca641dd.js.map": "/url/static/js/main.3ca641dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.645e3f7b.css",
+    "static/js/main.3ca641dd.js"
+  ]
+}
