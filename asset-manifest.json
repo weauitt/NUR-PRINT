@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NUR-PRINT/static/css/main.645e3f7b.css",
-    "main.js": "/NUR-PRINT/static/js/main.f81c04d4.js",
+    "main.css": "/NUR-PRINT/static/css/main.0c8bec92.css",
+    "main.js": "/NUR-PRINT/static/js/main.e3fe9ec9.js",
     "static/media/Project Name (14).png": "/NUR-PRINT/static/media/Project Name (14).72bfc991492d500910b7.png",
     "static/media/download_image_1711793596008.png": "/NUR-PRINT/static/media/download_image_1711793596008.fda9a84d1b91607bfa16.png",
     "static/media/Frame 3 (7).png": "/NUR-PRINT/static/media/Frame 3 (7).b70204d3c59ec0a910c1.png",
@@ -18,7 +18,7 @@
     "static/media/imgSeven.jpg": "/NUR-PRINT/static/media/imgSeven.19ed599293758ad800f2.jpg",
     "static/media/Group 33.png": "/NUR-PRINT/static/media/Group 33.bfd96c61aa1d45fab246.png",
     "static/media/NumFive.svg": "/NUR-PRINT/static/media/NumFive.7887829056279061ac64bd9dfd5441e3.svg",
-    "static/media/Wave SVG (3).svg": "/NUR-PRINT/static/media/Wave SVG (3).ddfad9226a85758a49e42b3ab18d61fe.svg",
+    "static/media/Wave SVG (3).svg": "/NUR-PRINT/static/media/Wave SVG (3).dce82c607f557016fc9333ba9267e52f.svg",
     "static/media/NumThree.svg": "/NUR-PRINT/static/media/NumThree.785828739f2846c8cf86d55328d46993.svg",
     "static/media/instagram.svg": "/NUR-PRINT/static/media/instagram.b2aea26a2234694fe2aa723a0c2b86ae.svg",
     "static/media/NumTwo.svg": "/NUR-PRINT/static/media/NumTwo.76642212e31af2053e3001aaf2e29821.svg",
@@ -29,11 +29,11 @@
     "static/media/telegram.svg": "/NUR-PRINT/static/media/telegram.6388ae7f311f83853605e2c3de91b1fa.svg",
     "static/media/NumOne.svg": "/NUR-PRINT/static/media/NumOne.17b61de7ec58bbfd70e2629780fe6c94.svg",
     "index.html": "/NUR-PRINT/index.html",
-    "main.645e3f7b.css.map": "/NUR-PRINT/static/css/main.645e3f7b.css.map",
-    "main.f81c04d4.js.map": "/NUR-PRINT/static/js/main.f81c04d4.js.map"
+    "main.0c8bec92.css.map": "/NUR-PRINT/static/css/main.0c8bec92.css.map",
+    "main.e3fe9ec9.js.map": "/NUR-PRINT/static/js/main.e3fe9ec9.js.map"
   },
   "entrypoints": [
-    "static/css/main.645e3f7b.css",
-    "static/js/main.f81c04d4.js"
+    "static/css/main.0c8bec92.css",
+    "static/js/main.e3fe9ec9.js"
   ]
 }
