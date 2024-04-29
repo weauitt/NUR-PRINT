@@ -19,10 +19,6 @@
   display: flex;
 }
 
-.burger:focus {
-  outline: none;
-}
-
 .logo {
   position: absolute;
   font-size: 18px;
@@ -90,8 +86,10 @@
 }
 
 @media (max-width: 630px) {
+  .burger:focus {
+    outline: none;
+  }
   .logo {
-    position: fixed;
     z-index: 2;
   }
   .AllNavigation {
@@ -109,15 +107,13 @@
     left: -100%;
     transition: left 1s;
     position: absolute;
+    top: 25%;
   }
   .NavOne,
   .NavTwo,
   .NavFour {
     margin-top: 20px;
     font-weight: 900;
-  }
-  .Contacts {
-    justify-content: center;
   }
   .burger {
     flex-direction: column;
@@ -131,7 +127,7 @@
     width: 100%;
     transition: left 0.4s;
     border-radius: 3px;
-    background-image: linear-gradient(315deg, #085E7D, #1e609e);
+    background-image: linear-gradient(315deg, #000000, #043c71);
   }
   .burger .Navigation {
     align-self: flex-start;
@@ -147,7 +143,13 @@
     left: 0;
   }
   .activeNavigation {
-    left: 35px;
+    left: 10px;
+    top: 25%;
+  }
+  .activeLogo {
+    opacity: 1;
+    position: fixed;
+    transition: 1s;
   }
   .NavFour {
     display: block;

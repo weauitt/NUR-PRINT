@@ -14,9 +14,8 @@ function Header() {
   return (
     <>
       <header className={styles.Header}>
-        <nav translate="no" className={styles.logo}>NUR PRINT</nav>
+        <nav translate="no" className={burgerOpen ? [styles.logo, styles.activeLogo].join(' ') : [styles.logo]}>NUR PRINT</nav>
         <section  className={styles.AllNavigation}>
-          
           <div className={burgerOpen ? [styles.burger, styles.active].join(' ') : [styles.burger]}>
             <ul className={burgerOpen ?  [styles.Navigation, styles.activeNavigation].join(' ') : [styles.Navigation]}>
               <li className={styles.NavOne} style={{ marginRight: '35px', cursor: 'pointer' }}>О нас</li>
