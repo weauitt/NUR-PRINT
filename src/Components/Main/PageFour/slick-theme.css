@@ -1,0 +1,252 @@
+@charset 'UTF-8';
+@import url('https://fonts.cdnfonts.com/css/slick');
+/* Slider */
+
+/* Icons */
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+    font-size: 20px;
+    line-height: 0;
+    border-radius: 50px;
+    background-color: rgb(32 41 76) !important;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: "Madimi One", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.slick-prev:before {
+    content: '<';
+    color: white;
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: '→';
+}
+
+.slick-next {
+    right: -25px;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+.slick-next:before {
+    content: '>';
+    color: white !important;
+}
+
+[dir='rtl'] .slick-next:before {
+    content: '←';
+    color: black !important;
+}
+
+/* Dots */
+.slick-dotted.slick-slider {
+    margin-bottom: 50px;
+}
+
+.slick-slider .slick-dots {
+    font-size: 10px !important;
+    bottom: 38px !important;
+}
+
+
+.slick-dots {
+    font-size: 10px !important;
+    bottom: -55px !important;
+    position: absolute;
+    bottom: -55px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick' !important;
+    font-size: 30px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: rgb(255, 255, 255);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(255, 255, 255);
+}
+
+.my-custom-dots {
+    font-size: 10px;
+    bottom: -55px;
+}
+
+.slick-arrow.slick-next,
+.slick-arrow.slick-prev {
+    top: 6em;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.slick-arrow.slick-next:before,
+.slick-arrow.slick-prev:before {
+    opacity: 0.6;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+
+.slick-list {
+    height: 337px;
+}
+
+@media screen and (max-width: 446px) {
+    .slick-arrow.slick-next,
+    .slick-arrow.slick-prev {
+        padding: calc(-5px + (3px - 5px) * ((100vw - 270px) / (1280 - 320)));
+    }
+}
+
+@media screen and (max-width: 422px) {
+
+    .slick-arrow.slick-next,
+    .slick-arrow.slick-prev {
+        visibility: hidden;
+    }
+
+    .slick-list {
+        height: 364px;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 390px) {
+
+    .slick-arrow.slick-next,
+    .slick-arrow.slick-prev {
+        top: 7.5em;
+    }
+
+    .slick-arrow.slick-next:before,
+    .slick-arrow.slick-prev:before {
+        font-weight: bold;
+        font-size: calc(17px + (50 - 17) * ((100vw - 270px) / (1280 - 320)));
+      
+    }
+}

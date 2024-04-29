@@ -1,0 +1,83 @@
+.Numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 7em;
+  overflow: hidden;
+  position: relative;
+}
+
+.NumTopic {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Mulish", sans-serif;
+  position: relative;
+}
+
+.NumDesc {
+  font-family: "Mulish", sans-serif;
+  width: 150px;
+  position: relative;
+}
+
+.img {
+  width: 100px;
+}
+
+.BtnWhatsApp {
+  font-family: "Mulish", sans-serif;
+  margin-top: 7px;
+  padding: 10px 15px;
+  background: rgb(29, 31, 38);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+@media (max-width: 1050px) {
+  .Numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Section {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1050px) and (max-width: 1050px) {
+  .img {
+    width: calc(70px + 136 * (100vw - 300px) / 1280);
+  }
+}
+@media (max-width: 1050px) {
+  .NumTopic {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1050px) and (min-width: 270px) and (max-width: 1400px) {
+  .NumTopic {
+    font-size: calc(15px + 22.1 * (100vw - 300px) / 1280);
+  }
+}
+@media (max-width: 1050px) {
+  .NumDesc {
+    width: 236px;
+  }
+}
+@media (max-width: 1050px) and (min-width: 270px) and (max-width: 1400px) {
+  .NumDesc {
+    font-size: calc(13px + 11.9 * (100vw - 300px) / 1280);
+  }
+}
+@media (max-width: 1050px) {
+  .shapeTwo {
+    left: 10%;
+    top: 60%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .NumDesc {
+    width: 223px;
+  }
+}/*# sourceMappingURL=UtilPgThree.module.css.map */

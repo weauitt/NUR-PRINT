@@ -1,0 +1,218 @@
+$maxWidth: 1280;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 270px) and (max-width: 1400px) {
+    font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+@mixin adaptiv-width($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 270px) and (max-width: 1400px) {
+    width: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+@mixin adaptiv-top($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 1050px) and (max-width: 1400px) {
+    top: calc(#{$mobSize + em} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+@mixin adaptiv-left($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 1050px) and (max-width: 1400px) {
+    left: calc(#{$mobSize + em} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+@mixin adaptiv-padding($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 270px) and (max-width: 1400px) {
+    padding: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+.articleThree {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 2em;
+}
+
+.HowWeWork {
+  transform: translateY(-40px);
+  color: rgba(57, 66, 84);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Mulish', sans-serif;
+  margin-top: 80px;
+  @include adaptiv-font(65, 30);
+}
+
+.Bgrnd {
+  width: 117vw;
+  position: absolute;
+  z-index: -1;
+  @include adaptiv-left(-95, 2);
+  @include adaptiv-top(-60, 15)
+}
+
+.BgrndMob {
+  position: absolute;
+  z-index: -1;
+  display: none;
+  @include adaptiv-width(800, 450);
+}
+
+.footer {
+  z-index: 0;
+  position: relative;
+  margin-top: 50px;
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.IphoneInst {
+  transform: translateX(90px);
+  @include adaptiv-width(500, 300);
+}
+
+.ex {
+  position: relative;
+  flex-direction: column;
+}
+
+.btnText {
+  font-weight: 900;
+  color: rgb(27 64 91);
+  @include adaptiv-font(30, 17)
+}
+
+.BtnInst {
+  font-family: 'Mulish', sans-serif;
+  margin-top: 10px;
+  padding: 15px 20px;
+  background: rgba(41 51 86);
+  cursor: pointer !important;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.BtnWhatsApp {
+  font-family: 'Mulish', sans-serif;
+  margin-top: 7px;
+  padding: 10px 15px;
+  background: rgba(29, 31, 38);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.BackShape {
+  width: 130%;
+  position: absolute;
+  z-index: -1;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 7000px) {
+  .IphoneInst {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .Bgrnd {
+    display: none;
+  }
+
+  .BgrndMob {
+    position: absolute;
+    z-index: -1;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+}
+
+@media screen and (max-width: 969px) {
+  .BgrndMob {
+    top: 44%; 
+  }
+}
+
+
+@media screen and (max-width: 669px) {
+  .BgrndMob {
+    top: 44%; 
+  }
+
+  .ex{
+    transform: translateX(60px);
+  }
+
+  .btnText{
+    @include adaptiv-font(40, 15)
+  }
+
+  .BtnInst{
+    @include adaptiv-padding(25, 9 );
+    @include adaptiv-font(17, 9)
+  }
+}
+
+@media screen and (max-width: 471px) {
+  .btnText {
+   width: 147px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .IphoneInst{
+    transform: translateX(65px);
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .BgrndMob {
+    top: 45%; 
+  }
+
+  .ex{
+    transform: translateX(80px);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .Bgrnd {
+    left: -7em;
+    max-width: 1663px;
+    top: 5em;
+  }
+
+  .HowWeWork {
+    font-size: 58px;
+  }
+}

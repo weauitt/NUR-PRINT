@@ -1,0 +1,93 @@
+$maxWidth: 1280;
+
+@mixin adaptiv-width($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (max-width: 1050px) {
+    width: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 270px) and (max-width: 1400px) {
+    font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+.Numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 7em;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.NumTopic {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Mulish', sans-serif;
+  position: relative;
+}
+
+.NumDesc {
+  font-family: 'Mulish', sans-serif;
+  width: 150px;
+  position: relative;
+}
+
+.img {
+  width: 100px;
+}
+
+.BtnWhatsApp {
+  font-family: 'Mulish', sans-serif;
+  margin-top: 7px;
+  padding: 10px 15px;
+  background: rgba(29, 31, 38);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+@media(max-width: 1050px) {
+  .Numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Section {
+    margin-bottom: 50px;
+  }
+
+  .img {
+    @include adaptiv-width(150, 70);
+  }
+
+  .NumTopic {
+    @include adaptiv-font(28, 15);
+    display: flex;
+    justify-content: center;
+  }
+
+  .NumDesc{
+    @include adaptiv-font(20, 13);
+    width: 236px;
+  }
+
+  .shapeTwo {
+    left: 10%;
+    top: 60%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .NumDesc {
+    width: 223px;
+  }
+}

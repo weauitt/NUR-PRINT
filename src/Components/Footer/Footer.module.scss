@@ -1,0 +1,97 @@
+$maxWidth: 1280;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 10px) and (max-width: 1400px) {
+    font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+@mixin adaptiv-width($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+
+  @media (min-width: 10px) and (max-width: 1400px) {
+    width: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
+  }
+}
+
+.Footer {
+  position: relative;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  height: 300px;
+}
+
+.logo{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 18px;
+  color: floralwhite;
+  font-weight: 1000;
+  font-family: 'Mulish';
+  cursor: pointer;
+}
+
+.OurContacts {
+  left: 0;
+  top: 20%;
+  left: 20px;
+  position: absolute;
+  font-size: 13px;
+  .OurContactsText{
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+}
+
+.Desc {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+
+}
+
+.Icons{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 2%;
+}
+
+.numbers{
+  cursor: pointer;
+  margin-right: 12px;
+  width: 25px;
+}
+ 
+@media screen and (max-width: 700px) {
+  .logo{
+    @include adaptiv-font(20, 13);
+  }
+
+  .Desc {
+    @include adaptiv-font(16, 7);
+  } 
+
+  .OurContacts{
+    @include adaptiv-font(16, 8);
+    .OurContactsText{
+      @include adaptiv-font(18, 10);
+    }
+  }
+
+  .numbers{
+    @include adaptiv-width(20, 13);
+  }
+}

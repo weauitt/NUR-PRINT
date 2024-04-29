@@ -1,0 +1,34 @@
+@media (max-width: 800px) {
+  .Numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Section {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 800px) and (max-width: 800px) {
+  .img {
+    width: calc(100px + 119 * (100vw - 300px) / 1280);
+  }
+}
+@media (max-width: 800px) {
+  .NumTopic {
+    display: flex;
+    justify-content: center;
+  }
+  .shapeTwo {
+    left: 10%;
+    top: 60%;
+  }
+}
+.BtnWhatsApp {
+  font-family: "Mulish", sans-serif;
+  margin-top: 7px;
+  padding: 10px 15px;
+  background: rgb(29, 31, 38);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}/*# sourceMappingURL=UtilPg.three.css.map */

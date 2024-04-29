@@ -1,0 +1,102 @@
+@charset "UTF-8";
+.Background {
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  min-height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Header {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  position: relative;
+  overflow: hidden;
+}
+
+.PodHeader {
+  font-family: "Mulish", sans-serif;
+  font-size: 22px;
+  height: 100px;
+}
+
+.nurPrint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.nurPrint .andmore {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(37, 37, 37);
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 15px;
+  margin-left: 1vw;
+  border: none;
+  border-radius: 30px;
+}
+@media (min-width: 270px) and (max-width: 1400px) {
+  .nurPrint .andmore {
+    font-size: calc(11px + 6.8 * (100vw - 300px) / 1280);
+  }
+}
+@media (min-width: 270px) {
+  .nurPrint .andmore {
+    padding: calc(10px + 5.1 * (100vw - 300px) / 1280);
+  }
+}
+.nurPrint .nurPrintPodText {
+  margin-left: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+@media (min-width: 270px) and (max-width: 1400px) {
+  .nurPrint .nurPrintPodText {
+    font-size: calc(14px + 10.2 * (100vw - 300px) / 1280);
+  }
+}
+
+.nurPrintText {
+  font-family: "Mulish", sans-serif;
+  font-weight: 950;
+}
+@media (min-width: 270px) and (max-width: 1400px) {
+  .nurPrintText {
+    font-size: calc(50px + 68 * (100vw - 300px) / 1280);
+  }
+}
+
+.shapeOne {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  /* Перемещаем элемент на 50% от верхнего края родительского контейнера */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shapeTwo {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shapeThree {
+  z-index: -1;
+  position: absolute;
+  top: 1%;
+  height: 615px;
+  left: 35%;
+}/*# sourceMappingURL=PageOne.module.css.map */

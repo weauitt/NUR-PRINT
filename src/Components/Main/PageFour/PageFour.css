@@ -1,0 +1,33 @@
+.karusel {
+  padding-bottom: 60px;
+}
+
+.our-works {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 800;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(20px + (55 - 20) * ((100vw - 100%) / (1400 - 100)));
+  margin-bottom: 90px;
+  padding-top: 70px;
+}
+
+.image {
+  height: 240px;
+  width: auto;
+  margin: auto;
+  border-radius: 22px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width: 422px) {
+  .our-works{
+    margin-bottom: 0;
+  }
+  .image {
+    height: calc(110px + (800 - 110) * ((100vw - 250px) / (1280 - 320)));
+    margin-top: calc(70px + (-50 - 90) * ((100vw - 270px) / (1280 - 320)));
+  }
+}
