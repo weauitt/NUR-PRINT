@@ -20,7 +20,7 @@ const icons = [
 function Footer() {
   return (
     <footer className={styles.Footer}>
-      <div className={styles.logo}>NUR PRINT</div>
+      <div translate="no" className={styles.logo}>NUR PRINT</div>
       <section className={styles.OurContacts}>
         <p className={styles.OurContactsText} >Наши контакты</p>
         <a href="tel:+996 707 735 510" style={{ color: 'white' }} >+996 707 735 510</a>

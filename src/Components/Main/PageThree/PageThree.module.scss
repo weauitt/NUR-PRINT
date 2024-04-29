@@ -159,63 +159,75 @@ $maxWidth: 1280;
 
 @media screen and (max-width: 969px) {
   .BgrndMob {
-    top: 44%; 
+    top: 44%;
   }
 }
 
 
 @media screen and (max-width: 669px) {
   .BgrndMob {
-    top: 44%; 
+    top: 44%;
   }
 
-  .ex{
+  .ex {
     transform: translateX(60px);
   }
 
-  .btnText{
+  .btnText {
     @include adaptiv-font(40, 15)
   }
 
-  .BtnInst{
-    @include adaptiv-padding(25, 9 );
+  .BtnInst {
+    @include adaptiv-padding(25, 9);
     @include adaptiv-font(17, 9)
   }
 }
 
 @media screen and (max-width: 471px) {
   .btnText {
-   width: 147px;
+    width: 170px;
+  }
+
+  .ex {
+    transform: translateX(30px);
+  }
+
+  .IphoneInst {
+    transform: translateX(30px);
   }
 }
 
 @media screen and (max-width: 390px) {
-  .IphoneInst{
-    transform: translateX(65px);
+  .IphoneInst {
+    transform: translateX(10px);
+  }
+
+  .ex {
+    transform: translateX(10px);
   }
 }
 
 @media screen and (max-width: 361px) {
   .BgrndMob {
-    top: 45%; 
+    top: 45%;
   }
 
-  .ex{
-    transform: translateX(20px);
+  .ex {
+    transform: translateX(0px);
   }
 
-  .IphoneInst{
-    transform: translateX(4px);
+  .IphoneInst {
+    transform: translateX(-20px);
   }
 }
 
-@media screen and (max-width: 303px ) {
-  .ex{
-    transform: translateX(0);
+@media screen and (max-width: 303px) {
+  .ex {
+    transform: translateX(-10px);
   }
 
-  .IphoneInst{
-    transform: translateX(-20px);
+  .IphoneInst {
+    transform: translateX(-40px);
   }
 }
 

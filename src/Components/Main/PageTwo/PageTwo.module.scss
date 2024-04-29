@@ -4,7 +4,7 @@ $maxWidth: 1280;
   $addSize: $pcSize - $mobSize;
   $addMobSize: $addSize + $addSize * 0.7;
 
-  @media (min-width: 270px) and (max-width: 1400px) {
+  @media (min-width: 10px) and (max-width: 1400px) {
     font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
   }
 }
@@ -13,7 +13,7 @@ $maxWidth: 1280;
   $addSize: $pcSize - $mobSize;
   $addMobSize: $addSize + $addSize * 0.7;
 
-  @media (min-width: 270px) {
+  @media (min-width: 10px) {
     padding: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
   }
 }
@@ -22,7 +22,7 @@ $maxWidth: 1280;
   $addSize: $pcSize - $mobSize;
   $addMobSize: $addSize + $addSize * 0.7;
 
-  @media (min-width: 270px)  and (max-width: 1400px) {
+  @media (min-width: 10px)  and (max-width: 1400px) {
     width: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 300px) / #{$maxWidth}));
   }
 }

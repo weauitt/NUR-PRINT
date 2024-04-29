@@ -44,12 +44,12 @@
   border: none;
   border-radius: 30px;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .nurPrint .andmore {
     font-size: calc(11px + 6.8 * (100vw - 300px) / 1280);
   }
 }
-@media (min-width: 270px) {
+@media (min-width: 10px) {
   .nurPrint .andmore {
     padding: calc(10px + 5.1 * (100vw - 300px) / 1280);
   }
@@ -60,7 +60,7 @@
   font-size: 25px;
   color: white;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .nurPrint .nurPrintPodText {
     font-size: calc(14px + 10.2 * (100vw - 300px) / 1280);
   }
@@ -70,7 +70,7 @@
   font-family: "Mulish", sans-serif;
   font-weight: 950;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .nurPrintText {
     font-size: calc(50px + 68 * (100vw - 300px) / 1280);
   }

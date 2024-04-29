@@ -19,6 +19,10 @@
   display: flex;
 }
 
+.burger:focus {
+  outline: none;
+}
+
 .logo {
   position: absolute;
   font-size: 18px;
@@ -81,7 +85,11 @@
   font-size: 20px;
 }
 
-@media (max-width: 550px) {
+.NavFour {
+  display: none;
+}
+
+@media (max-width: 630px) {
   .logo {
     position: fixed;
     z-index: 2;
@@ -98,13 +106,17 @@
     margin-left: 2em;
     flex-direction: column;
     color: white;
+    left: -100%;
+    transition: left 1s;
+    position: absolute;
   }
   .NavOne,
-  .NavTwo {
+  .NavTwo,
+  .NavFour {
     margin-top: 20px;
+    font-weight: 900;
   }
   .Contacts {
-    margin-top: 2em;
     justify-content: center;
   }
   .burger {
@@ -117,19 +129,27 @@
     right: 0;
     height: 100vh;
     width: 100%;
-    transition: left 0.5s;
+    transition: left 0.4s;
     border-radius: 3px;
     background-image: linear-gradient(315deg, #085E7D, #1e609e);
   }
   .burger .Navigation {
     align-self: flex-start;
+    font-weight: 1000;
+    font-family: "Mulish";
   }
   .burger .Contacts {
-    align-self: center;
-    justify-self: flex-end;
-    transform: translateY(11em);
+    position: absolute;
+    bottom: 10px;
+    right: 0;
   }
   .active {
     left: 0;
+  }
+  .activeNavigation {
+    left: 35px;
+  }
+  .NavFour {
+    display: block;
   }
 }/*# sourceMappingURL=Header.module.css.map */

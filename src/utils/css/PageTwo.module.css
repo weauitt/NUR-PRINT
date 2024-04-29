@@ -16,7 +16,7 @@
   transform: translateY(80px);
   text-align: center;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .NurPrint {
     font-size: calc(16px + 27.2 * (100vw - 300px) / 1280);
   }
@@ -37,7 +37,7 @@
   color: antiquewhite;
   z-index: 2;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .TopicWhatWeDo {
     font-size: calc(13px + 20.4 * (100vw - 300px) / 1280);
   }
@@ -61,7 +61,7 @@
   color: white;
   font-family: "Mulish", sans-serif;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .ChapterOne .TopicChapterOne {
     font-size: calc(11px + 20.4 * (100vw - 300px) / 1280);
   }
@@ -70,7 +70,7 @@
   margin-top: 15px;
   font-family: "Mulish", sans-serif;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .ChapterOne .DescChapterOne {
     font-size: calc(9px + 8.5 * (100vw - 300px) / 1280);
   }
@@ -87,7 +87,7 @@
   color: white;
   font-family: "Mulish", sans-serif;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .ChapterTwo .TopicChapterTwo {
     font-size: calc(11px + 20.4 * (100vw - 300px) / 1280);
   }
@@ -97,7 +97,7 @@
   margin-top: 15px;
   font-family: "Mulish", sans-serif;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .ChapterTwo .DescChapterTwo {
     font-size: calc(9px + 8.5 * (100vw - 300px) / 1280);
   }
@@ -109,7 +109,7 @@
   transform: translateY(400px);
   left: 30%;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .Lightning {
     width: calc(150px + 221 * (100vw - 300px) / 1280);
   }
@@ -134,7 +134,7 @@
   color: white;
   font-family: "Mulish", sans-serif;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .ChapterThree .TopicChapterThree {
     font-size: calc(11px + 20.4 * (100vw - 300px) / 1280);
   }
@@ -143,7 +143,7 @@
   margin-top: 15px;
   font-family: "Mulish", sans-serif;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .ChapterThree .DescChapterThree {
     font-size: calc(9px + 8.5 * (100vw - 300px) / 1280);
   }
@@ -160,7 +160,7 @@
   color: white;
   font-family: "Mulish", sans-serif;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .ChapterFour .TopicChapterFour {
     font-size: calc(15px + 13.6 * (100vw - 300px) / 1280);
   }
@@ -170,7 +170,7 @@
   margin-top: 15px;
   font-family: "Mulish", sans-serif;
 }
-@media (min-width: 270px) and (max-width: 1400px) {
+@media (min-width: 10px) and (max-width: 1400px) {
   .ChapterFour .DescChapterFour {
     font-size: calc(9px + 8.5 * (100vw - 300px) / 1280);
   }

@@ -5,15 +5,9 @@ import Tg from '../../img/Header/tg.svg'
 import WhtsApp from '../../img/Header/whatsapp.svg'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
-// import { useRef } from 'react';
 
 
 function Header() {
-  // const BurgerRef = useRef();
-
-  // const showBurger  = () => {
-  //   BurgerRef.current.classList.toggle("responsive_nav")
-  // }
 
   const [burgerOpen, setBurgerOpen] = React.useState(false)
 
@@ -24,10 +18,11 @@ function Header() {
         <section  className={styles.AllNavigation}>
           
           <div className={burgerOpen ? [styles.burger, styles.active].join(' ') : [styles.burger]}>
-            <ul className={styles.Navigation}>
+            <ul className={burgerOpen ?  [styles.Navigation, styles.activeNavigation].join(' ') : [styles.Navigation]}>
               <li className={styles.NavOne} style={{ marginRight: '35px', cursor: 'pointer' }}>О нас</li>
               <li className={styles.NavOne} style={{ marginRight: '35px', cursor: 'pointer' }}>Услуги</li>
               <li className={styles.NavTwo} style={{ marginRight: '30px', cursor: 'pointer' }}>Процесс</li>
+              <li className={styles.NavFour} style={{ marginRight: '30px', cursor: 'pointer' }}>Правовая информация</li>
             </ul>
             <section className={styles.Contacts}>
               <a href="https://lyl.su/fn6" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto' }}>
