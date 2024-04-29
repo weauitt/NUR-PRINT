@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NUR-PRINT/static/css/main.4acacf91.css",
-    "main.js": "/NUR-PRINT/static/js/main.ebcd5b6b.js",
+    "main.css": "/NUR-PRINT/static/css/main.1c6bd094.css",
+    "main.js": "/NUR-PRINT/static/js/main.c6a6a9be.js",
     "static/media/Project Name (14).png": "/NUR-PRINT/static/media/Project Name (14).72bfc991492d500910b7.png",
     "static/media/download_image_1711793596008.png": "/NUR-PRINT/static/media/download_image_1711793596008.fda9a84d1b91607bfa16.png",
     "static/media/Frame 3 (7).png": "/NUR-PRINT/static/media/Frame 3 (7).b70204d3c59ec0a910c1.png",
@@ -17,23 +17,23 @@
     "static/media/imgSix.jpg": "/NUR-PRINT/static/media/imgSix.b51821c2d89219d679a9.jpg",
     "static/media/imgSeven.jpg": "/NUR-PRINT/static/media/imgSeven.19ed599293758ad800f2.jpg",
     "static/media/Group 33.png": "/NUR-PRINT/static/media/Group 33.bfd96c61aa1d45fab246.png",
-    "static/media/NumFive.svg": "/NUR-PRINT/static/media/NumFive.7887829056279061ac64bd9dfd5441e3.svg",
-    "static/media/Wave SVG (3).svg": "/NUR-PRINT/static/media/Wave SVG (3).dce82c607f557016fc9333ba9267e52f.svg",
-    "static/media/NumThree.svg": "/NUR-PRINT/static/media/NumThree.785828739f2846c8cf86d55328d46993.svg",
-    "static/media/instagram.svg": "/NUR-PRINT/static/media/instagram.b2aea26a2234694fe2aa723a0c2b86ae.svg",
-    "static/media/NumTwo.svg": "/NUR-PRINT/static/media/NumTwo.76642212e31af2053e3001aaf2e29821.svg",
-    "static/media/whatsapp.svg": "/NUR-PRINT/static/media/whatsapp.09a67077b2386e4f5b7bbca2d0949c81.svg",
-    "static/media/inst.svg": "/NUR-PRINT/static/media/inst.fba53741478afef0adef827545f9a276.svg",
-    "static/media/tg.svg": "/NUR-PRINT/static/media/tg.d45cb07496cb86c1cceb706ce7078b44.svg",
-    "static/media/NumFour.svg": "/NUR-PRINT/static/media/NumFour.74fcc8b4b0c63502bc37cfc7c25bc3b9.svg",
-    "static/media/telegram.svg": "/NUR-PRINT/static/media/telegram.6388ae7f311f83853605e2c3de91b1fa.svg",
-    "static/media/NumOne.svg": "/NUR-PRINT/static/media/NumOne.17b61de7ec58bbfd70e2629780fe6c94.svg",
+    "static/media/NumFive.svg": "/NUR-PRINT/static/media/NumFive.7ac7951f59acaf8b6cf416003c8f9987.svg",
+    "static/media/Wave SVG (3).svg": "/NUR-PRINT/static/media/Wave SVG (3).ddfad9226a85758a49e42b3ab18d61fe.svg",
+    "static/media/NumThree.svg": "/NUR-PRINT/static/media/NumThree.05c59b3c23b44ea4a312978ec3cb16c6.svg",
+    "static/media/instagram.svg": "/NUR-PRINT/static/media/instagram.d2193aef9da30849e71a84f224960cc1.svg",
+    "static/media/NumTwo.svg": "/NUR-PRINT/static/media/NumTwo.7e1c90cf6a4866ee61850867632a5919.svg",
+    "static/media/whatsapp.svg": "/NUR-PRINT/static/media/whatsapp.60f305c5c32c2e7e84b5f3d0decf4956.svg",
+    "static/media/inst.svg": "/NUR-PRINT/static/media/inst.374129ea55c2054d67622b8b33b7a4c5.svg",
+    "static/media/tg.svg": "/NUR-PRINT/static/media/tg.a0e61050bd55fbf277943da02e370475.svg",
+    "static/media/NumFour.svg": "/NUR-PRINT/static/media/NumFour.8cf766dda72fe5f5c5194ef6e8a95072.svg",
+    "static/media/telegram.svg": "/NUR-PRINT/static/media/telegram.58ebaa3922d38abb9a80ce657d2bac42.svg",
+    "static/media/NumOne.svg": "/NUR-PRINT/static/media/NumOne.5a9e85324e44d7a5250bdb637d62632a.svg",
     "index.html": "/NUR-PRINT/index.html",
-    "main.4acacf91.css.map": "/NUR-PRINT/static/css/main.4acacf91.css.map",
-    "main.ebcd5b6b.js.map": "/NUR-PRINT/static/js/main.ebcd5b6b.js.map"
+    "main.1c6bd094.css.map": "/NUR-PRINT/static/css/main.1c6bd094.css.map",
+    "main.c6a6a9be.js.map": "/NUR-PRINT/static/js/main.c6a6a9be.js.map"
   },
   "entrypoints": [
-    "static/css/main.4acacf91.css",
-    "static/js/main.ebcd5b6b.js"
+    "static/css/main.1c6bd094.css",
+    "static/js/main.c6a6a9be.js"
   ]
 }
