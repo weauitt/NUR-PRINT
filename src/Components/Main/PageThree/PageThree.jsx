@@ -13,7 +13,6 @@ function PageThree() {
       <img src={BgrndMob} alt="Bgrnd" className={styles.BgrndMob} />
       <UtilPgThree />
       <footer className={styles.footer}>
-      {/* <img className={styles.BackShape} src={BackShape} alt="backgroundIcon" /> */}
         <div className={styles.ex}>
           <h3 className={styles.btnText}>Или свяжитесь напрямую</h3>
           <a href="https://www.instagram.com/nurprint_kg/" target="_blank" rel="noopener noreferrer">
