@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/NUR-PRINT/static/css/main.198e3b6e.css",
-    "main.js": "/NUR-PRINT/static/js/main.68ef2f28.js",
-    "static/media/Project Name (14).png": "/NUR-PRINT/static/media/Project Name (14).72bfc991492d500910b7.png",
+    "main.css": "/NUR-PRINT/static/css/main.03dd5c61.css",
+    "main.js": "/NUR-PRINT/static/js/main.2e327f7b.js",
+    "static/media/Project Name (14) — копия.png": "/NUR-PRINT/static/media/Project Name (14) — копия.72bfc991492d500910b7.png",
     "static/media/download_image_1711793596008.png": "/NUR-PRINT/static/media/download_image_1711793596008.fda9a84d1b91607bfa16.png",
     "static/media/Frame 3 (7).png": "/NUR-PRINT/static/media/Frame 3 (7).b70204d3c59ec0a910c1.png",
     "static/media/Frame 2 (5).png": "/NUR-PRINT/static/media/Frame 2 (5).b871ad454d4b318ce3aa.png",
@@ -20,20 +20,18 @@
     "static/media/NumFive.svg": "/NUR-PRINT/static/media/NumFive.7ac7951f59acaf8b6cf416003c8f9987.svg",
     "static/media/Wave SVG (3).svg": "/NUR-PRINT/static/media/Wave SVG (3).ddfad9226a85758a49e42b3ab18d61fe.svg",
     "static/media/NumThree.svg": "/NUR-PRINT/static/media/NumThree.05c59b3c23b44ea4a312978ec3cb16c6.svg",
-    "static/media/instagram.svg": "/NUR-PRINT/static/media/instagram.d2193aef9da30849e71a84f224960cc1.svg",
     "static/media/NumTwo.svg": "/NUR-PRINT/static/media/NumTwo.7e1c90cf6a4866ee61850867632a5919.svg",
-    "static/media/whatsapp.svg": "/NUR-PRINT/static/media/whatsapp.60f305c5c32c2e7e84b5f3d0decf4956.svg",
     "static/media/inst.svg": "/NUR-PRINT/static/media/inst.374129ea55c2054d67622b8b33b7a4c5.svg",
+    "static/media/whatsapp.svg": "/NUR-PRINT/static/media/whatsapp.60f305c5c32c2e7e84b5f3d0decf4956.svg",
     "static/media/tg.svg": "/NUR-PRINT/static/media/tg.a0e61050bd55fbf277943da02e370475.svg",
     "static/media/NumFour.svg": "/NUR-PRINT/static/media/NumFour.8cf766dda72fe5f5c5194ef6e8a95072.svg",
-    "static/media/telegram.svg": "/NUR-PRINT/static/media/telegram.58ebaa3922d38abb9a80ce657d2bac42.svg",
     "static/media/NumOne.svg": "/NUR-PRINT/static/media/NumOne.5a9e85324e44d7a5250bdb637d62632a.svg",
     "index.html": "/NUR-PRINT/index.html",
-    "main.198e3b6e.css.map": "/NUR-PRINT/static/css/main.198e3b6e.css.map",
-    "main.68ef2f28.js.map": "/NUR-PRINT/static/js/main.68ef2f28.js.map"
+    "main.03dd5c61.css.map": "/NUR-PRINT/static/css/main.03dd5c61.css.map",
+    "main.2e327f7b.js.map": "/NUR-PRINT/static/js/main.2e327f7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.198e3b6e.css",
-    "static/js/main.68ef2f28.js"
+    "static/css/main.03dd5c61.css",
+    "static/js/main.2e327f7b.js"
   ]
 }
