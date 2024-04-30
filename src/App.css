@@ -6,6 +6,12 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+      -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+           user-select: none; /* Chrome и остальные */
 }
 
 body{

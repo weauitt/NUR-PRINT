@@ -82,16 +82,16 @@ $maxWidth: 1280;
 .footer {
   z-index: 0;
   position: relative;
-  margin-top: 50px;
+  margin-top: 150px;
   font-family: 'Mulish', sans-serif;
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   align-items: center;
   justify-content: space-evenly;
   font-size: 20px;
 }
 
 .IphoneInst {
-  transform: translateX(90px);
   @include adaptiv-width(500, 300);
 }
 
@@ -169,10 +169,6 @@ $maxWidth: 1280;
     top: 44%;
   }
 
-  .ex {
-    transform: translateX(60px);
-  }
-
   .btnText {
     @include adaptiv-font(40, 15)
   }
@@ -183,51 +179,9 @@ $maxWidth: 1280;
   }
 }
 
-@media screen and (max-width: 471px) {
-  .btnText {
-    width: 170px;
-  }
-
-  .ex {
-    transform: translateX(68px);
-  }
-
-  .IphoneInst {
-    transform: translateX(70px);
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .IphoneInst {
-    transform: translateX(66px);
-  }
-
-  .ex {
-    transform: translateX(70px);
-  }
-}
-
 @media screen and (max-width: 361px) {
   .BgrndMob {
-    top: 45%;
-  }
-
-  // .ex {
-  //   transform: translateX(0px);
-  // }
-
-  // .IphoneInst {
-  //   transform: translateX(-20px);
-  // }
-}
-
-@media screen and (max-width: 303px) {
-  .ex {
-    transform: translateX(66px);
-  }
-
-  .IphoneInst {
-    transform: translateX(39px);
+    top: 43%;
   }
 }
 
@@ -242,3 +196,5 @@ $maxWidth: 1280;
     font-size: 58px;
   }
 }
+
+// <a target="_blank" href="https://icons8.com/illustrations/illustration/60c86f0718a4be0001479493">App</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

@@ -6,6 +6,7 @@ import WhtsApp from '../../img/Header/whatsapp.svg'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { HiUserGroup, HiOutlineBadgeCheck, HiRefresh } from "react-icons/hi";
+import { Link } from 'react-scroll';
 
 function Header() {
 
@@ -19,21 +20,29 @@ function Header() {
           <div className={burgerOpen ? [styles.burger, styles.active].join(' ') : [styles.burger]}>
             <ul className={burgerOpen ? [styles.Navigation, styles.activeNavigation].join(' ') : [styles.Navigation]}>
               <div style={{ display: "flex", margin: "10px" }}>
-                <HiUserGroup className={burgerOpen ? [styles.AboutUs, styles.activeAboutUs].join(' ') : [styles.AboutUs]} /> 
+                <HiUserGroup className={burgerOpen ? [styles.AboutUs, styles.activeAboutUs].join(' ') : [styles.AboutUs]} />
                 <li className={styles.NavOne} style={{ marginRight: '35px', cursor: 'pointer' }}>О нас</li>
               </div>
               <div style={{ display: "flex", margin: "10px" }}>
                 <HiOutlineBadgeCheck className={burgerOpen ? [styles.Uslugi, styles.activeUslugi].join(' ') : [styles.Uslugi]} />
-                 <li className={styles.NavOne} style={{ marginRight: '35px', cursor: 'pointer' }}>Услуги</li>
+                <Link className={styles.NavOne} style={{ marginRight: '35px', cursor: 'pointer' }}
+                  onClick={() => setBurgerOpen(false)}
+                  activeClass="active" to="WhatWeDo" spy={true} smooth={true} offset={50}
+                  duration={500}>Услуги
+                </Link>
               </div>
               <div style={{ display: "flex", margin: "10px" }}>
-                <HiRefresh className={burgerOpen ? [styles.Procces, styles.activeProcces].join(' ') : [styles.Procces]} /> 
-                <li className={styles.NavTwo} style={{ marginRight: '30px', cursor: 'pointer' }}>Процесс</li>
+                <HiRefresh className={burgerOpen ? [styles.Procces, styles.activeProcces].join(' ') : [styles.Procces]} />
+                <Link className={styles.NavTwo} style={{ marginRight: '30px', cursor: 'pointer' }}
+                  onClick={() => setBurgerOpen(false)}
+                  activeClass="active" to="HowWeWork" spy={true} smooth={true} offset={-40}
+                  duration={500}>Процесс
+                </Link>
               </div>
             </ul>
             <div className={burgerOpen ? [styles.NavFour, styles.activeNavFour].join(' ') : [styles.NavFour]}>Правовая информация</div>
-            <section className={burgerOpen ? [styles.Contacts, styles.activeContacts].join(' ') : [styles.Contacts]}>
-              <a href="https://lyl.su/fn6" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto', marginBottom: "5px"}}>
+            <section className={burgerOpen ? styles.activeContacts : styles.Contacts}>
+              <a href="https://lyl.su/fn6" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto', marginBottom: "5px" }}>
                 <img src={WhtsApp} alt='WhatsApp' className={styles.WhtsApp} />
               </a>
               <a href=" https://www.instagram.com/nurprint_kg/" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto', marginBottom: "5px" }}>

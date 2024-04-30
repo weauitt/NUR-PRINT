@@ -10,7 +10,7 @@ function PageTwo() {
           <h1 className={styles.NurPrint}>РЕКЛАМНО-ПРОИЗВОДСТВЕННАЯ КОМПАНИЯ NUR PRINT</h1>
         </section>
         <img className={styles.Lightning} src={Lightning} alt="Lightning" />
-        <section className={styles.WhatWeDo}>
+        <section className={styles.WhatWeDo} id='WhatWeDo'>
           <header className={styles.TopicWhatWeDo}>Мы творим рекламные шедевры, вывески <br /> что олицетворяют ваш бизнес</header>
           <section className={styles.SectionOne}>
             <section className={styles.ChapterOne}>

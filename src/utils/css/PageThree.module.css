@@ -51,17 +51,15 @@
 .footer {
   z-index: 0;
   position: relative;
-  margin-top: 50px;
+  margin-top: 150px;
   font-family: "Mulish", sans-serif;
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   align-items: center;
   justify-content: space-evenly;
   font-size: 20px;
 }
 
-.IphoneInst {
-  transform: translateX(90px);
-}
 @media (min-width: 10px) and (max-width: 1400px) {
   .IphoneInst {
     width: calc(300px + 340 * (100vw - 300px) / 1280);
@@ -140,9 +138,6 @@
   .BgrndMob {
     top: 44%;
   }
-  .ex {
-    transform: translateX(60px);
-  }
 }
 @media screen and (max-width: 669px) and (min-width: 10px) and (max-width: 1400px) {
   .btnText {
@@ -159,36 +154,9 @@
     font-size: calc(9px + 13.6 * (100vw - 300px) / 1280);
   }
 }
-@media screen and (max-width: 471px) {
-  .btnText {
-    width: 170px;
-  }
-  .ex {
-    transform: translateX(68px);
-  }
-  .IphoneInst {
-    transform: translateX(70px);
-  }
-}
-@media screen and (max-width: 390px) {
-  .IphoneInst {
-    transform: translateX(66px);
-  }
-  .ex {
-    transform: translateX(70px);
-  }
-}
 @media screen and (max-width: 361px) {
   .BgrndMob {
-    top: 45%;
-  }
-}
-@media screen and (max-width: 303px) {
-  .ex {
-    transform: translateX(66px);
-  }
-  .IphoneInst {
-    transform: translateX(39px);
+    top: 43%;
   }
 }
 @media screen and (min-width: 1400px) {

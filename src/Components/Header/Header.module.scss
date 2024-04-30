@@ -22,13 +22,6 @@
   align-items: center;
 }
 
-hr {
-  border: none;
-  height: 2px;
-  background-color: rgb(255, 255, 255);
-}
-
-
 .logo {
   position: absolute;
   font-size: 18px;
@@ -66,13 +59,12 @@ hr {
 
   .AboutUs,
   .Uslugi,
-  .Procces
-   {
+  .Procces {
     display: none;
   }
 }
 
-.NavFour{
+.NavFour {
   display: none;
 }
 
@@ -110,9 +102,6 @@ hr {
 }
 
 @media (max-width: 686px) {
-  .burger:focus {
-    outline: none;
-  }
 
   .AllNavigation {
     position: fixed;
@@ -122,6 +111,11 @@ hr {
     visibility: visible;
     margin-right: 1em;
     z-index: 1;
+  }
+
+  .openHabmurger:checked{
+    background: white;
+    color: black;
   }
 
   .Navigation {
@@ -141,6 +135,7 @@ hr {
   }
 
   .burger {
+
     justify-content: center;
     position: fixed;
     top: 0;
@@ -151,7 +146,7 @@ hr {
     width: 100%;
     transition: left 0.3s;
     border-radius: 3px;
-    background-image: linear-gradient(268deg, #152339, rgb(22 28 43));
+    background-image: linear-gradient(268deg, #091221, rgb(23 25 30));
 
     .Navigation {
       align-self: flex-start;
@@ -160,15 +155,15 @@ hr {
     }
 
     .Contacts {
-      position: absolute;
-      bottom: 10px;
-      right: 0;
+      transform: translateY(150%);
+      transition: 1s;
     }
 
   }
 
   .active {
     left: 0;
+    outline: none;
   }
 
   .activeNavigation {
@@ -180,7 +175,7 @@ hr {
 
     .activeAboutUs,
     .activeUslugi,
-    .activeProcces  {
+    .activeProcces {
       display: block;
       width: 30px;
     }
@@ -197,6 +192,8 @@ hr {
   }
 
   .activeContacts {
+    transform: translateY(1%);
+    transition: 1.4s;
     position: fixed;
     bottom: 10px;
     right: 0;
@@ -211,7 +208,7 @@ hr {
     transition: 0.9s;
   }
 
-  .activeNavFour{
+  .activeNavFour {
     bottom: 23px;
     left: 20px;
     cursor: pointer;
@@ -222,8 +219,8 @@ hr {
 }
 
 @media screen and (max-width: 315px) {
-  .Contacts{
-    display: flex;
-    flex-direction: column;
+  .activeContacts {
+    display: flex!important;
+    flex-direction: column!important;
   }
 }

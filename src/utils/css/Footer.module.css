@@ -54,6 +54,14 @@
   width: 25px;
 }
 
+.IconsLisence {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 10px;
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 700px) and (min-width: 10px) and (max-width: 1400px) {
   .logo {
     font-size: calc(13px + 11.9 * (100vw - 300px) / 1280);
