@@ -164,37 +164,31 @@
     width: 170px;
   }
   .ex {
-    transform: translateX(30px);
+    transform: translateX(68px);
   }
   .IphoneInst {
-    transform: translateX(30px);
+    transform: translateX(70px);
   }
 }
 @media screen and (max-width: 390px) {
   .IphoneInst {
-    transform: translateX(10px);
+    transform: translateX(66px);
   }
   .ex {
-    transform: translateX(10px);
+    transform: translateX(70px);
   }
 }
 @media screen and (max-width: 361px) {
   .BgrndMob {
     top: 45%;
   }
-  .ex {
-    transform: translateX(0px);
-  }
-  .IphoneInst {
-    transform: translateX(-20px);
-  }
 }
 @media screen and (max-width: 303px) {
   .ex {
-    transform: translateX(-10px);
+    transform: translateX(66px);
   }
   .IphoneInst {
-    transform: translateX(-40px);
+    transform: translateX(39px);
   }
 }
 @media screen and (min-width: 1400px) {
