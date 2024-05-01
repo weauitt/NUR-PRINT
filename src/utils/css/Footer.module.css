@@ -81,9 +81,4 @@
   .OurContacts .OurContactsText {
     font-size: calc(10px + 13.6 * (100vw - 300px) / 1280);
   }
-}
-@media screen and (max-width: 700px) and (min-width: 10px) and (max-width: 1400px) {
-  .numbers {
-    width: calc(13px + 11.9 * (100vw - 300px) / 1280);
-  }
 }/*# sourceMappingURL=Footer.module.css.map */

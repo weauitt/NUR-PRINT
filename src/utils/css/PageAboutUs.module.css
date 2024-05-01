@@ -1,0 +1,71 @@
+.background {
+  background-image: linear-gradient(0deg, rgb(57, 66, 84), rgb(15, 21, 46));
+  width: 100%;
+  height: 100%;
+}
+
+.GoHome {
+  position: absolute;
+  right: 20px;
+  top: 27px;
+  color: white;
+  font-family: "Mulish";
+  font-weight: 800;
+  color: rgb(194, 215, 247);
+}
+
+.History {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  position: absolute;
+  font-size: 18px;
+  color: rgb(194, 215, 247);
+  font-weight: 1000;
+  font-family: "Mulish";
+  margin: 23px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.Topic {
+  font-size: 18px;
+  color: rgb(194, 215, 247);
+  font-weight: 800;
+  font-family: "Mulish";
+  margin-top: 90px;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
+.HistoryText {
+  max-width: 600px;
+  color: white;
+  font-family: "Mulish";
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+.HistoryText .textTwo {
+  margin-top: 2rem;
+}
+.HistoryText .textThree {
+  margin-top: 2rem;
+}
+.HistoryText .textFour {
+  margin-top: 2rem;
+}
+.HistoryText .textFive {
+  margin-top: 2rem;
+}
+.HistoryText .textSix {
+  margin-top: 2rem;
+}
+.HistoryText .textSeven {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}/*# sourceMappingURL=PageAboutUs.module.css.map */

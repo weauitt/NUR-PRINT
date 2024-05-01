@@ -41,6 +41,7 @@
 }
 .Navigation .NavOne,
 .Navigation .NavTwo {
+  color: #adadad;
   transition: 0.4s;
   font-weight: 800;
 }

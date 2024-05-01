@@ -98,8 +98,4 @@ $maxWidth: 1280;
       @include adaptiv-font(18, 10);
     }
   }
-
-  .numbers{
-    @include adaptiv-width(20, 13);
-  }
 }

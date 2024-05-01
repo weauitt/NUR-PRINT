@@ -7,6 +7,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { HiUserGroup, HiOutlineBadgeCheck, HiRefresh } from "react-icons/hi";
 import { Link } from 'react-scroll';
+import { Link as LinkRouter } from 'react-router-dom';
+
 
 function Header() {
 
@@ -21,7 +23,7 @@ function Header() {
             <ul className={burgerOpen ? [styles.Navigation, styles.activeNavigation].join(' ') : [styles.Navigation]}>
               <div style={{ display: "flex", margin: "10px" }}>
                 <HiUserGroup className={burgerOpen ? [styles.AboutUs, styles.activeAboutUs].join(' ') : [styles.AboutUs]} />
-                <li className={styles.NavOne} style={{ marginRight: '35px', cursor: 'pointer' }}>О нас</li>
+                <LinkRouter to='/PageAboutUs' className={styles.NavOne} style={{ marginRight: '35px', cursor: 'pointer' }}>О нас</LinkRouter>
               </div>
               <div style={{ display: "flex", margin: "10px" }}>
                 <HiOutlineBadgeCheck className={burgerOpen ? [styles.Uslugi, styles.activeUslugi].join(' ') : [styles.Uslugi]} />
@@ -58,6 +60,7 @@ function Header() {
             {burgerOpen ? <MdClose /> : <GiHamburgerMenu />}
           </button>
         </section>
+        
       </header>
     </>
   )
