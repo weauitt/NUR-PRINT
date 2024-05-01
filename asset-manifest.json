@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NUR-PRINT/static/css/main.03dd5c61.css",
+    "main.css": "/NUR-PRINT/static/css/main.8ae8a425.css",
     "main.js": "/NUR-PRINT/static/js/main.2e327f7b.js",
     "static/media/Project Name (14) — копия.png": "/NUR-PRINT/static/media/Project Name (14) — копия.72bfc991492d500910b7.png",
     "static/media/download_image_1711793596008.png": "/NUR-PRINT/static/media/download_image_1711793596008.fda9a84d1b91607bfa16.png",
@@ -27,11 +27,11 @@
     "static/media/NumFour.svg": "/NUR-PRINT/static/media/NumFour.8cf766dda72fe5f5c5194ef6e8a95072.svg",
     "static/media/NumOne.svg": "/NUR-PRINT/static/media/NumOne.5a9e85324e44d7a5250bdb637d62632a.svg",
     "index.html": "/NUR-PRINT/index.html",
-    "main.03dd5c61.css.map": "/NUR-PRINT/static/css/main.03dd5c61.css.map",
+    "main.8ae8a425.css.map": "/NUR-PRINT/static/css/main.8ae8a425.css.map",
     "main.2e327f7b.js.map": "/NUR-PRINT/static/js/main.2e327f7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.03dd5c61.css",
+    "static/css/main.8ae8a425.css",
     "static/js/main.2e327f7b.js"
   ]
 }
