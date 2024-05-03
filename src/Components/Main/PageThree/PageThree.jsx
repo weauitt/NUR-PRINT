@@ -3,6 +3,7 @@ import UtilPgThree from '../../../utils/UtilPgThree'
 import IphoneInst from '../../../img/PageThree/Project Name (14) — копия.png'
 import Bgrnd from '../../../img/PageThree/Frame 2 (5).png'
 import BgrndMob from '../../../img/PageThree/Frame 3 (7).png'
+import PageThreeFooterBgrnd from '../../../img/PageThree/Subtract (2).svg'
 
 
 function PageThree() {
@@ -10,9 +11,10 @@ function PageThree() {
     <article className={styles.articleThree}>
       <h1 className={styles.HowWeWork} id='HowWeWork'>Как мы работаем</h1>
       <img src={Bgrnd} alt="Bgrnd" className={styles.Bgrnd} />
-      <img src={BgrndMob} alt="Bgrnd" className={styles.BgrndMob} />
+      <img src={BgrndMob} alt="BgrndMob" className={styles.BgrndMob} />
       <UtilPgThree />
       <footer className={styles.footer}>
+      <img className={styles.PageThreeFooterBgrnd} src={PageThreeFooterBgrnd} alt='PageThreeFooterBgrnd' />
         <div className={styles.ex}>
       
           <h3 className={styles.btnText}>Или свяжитесь напрямую</h3>

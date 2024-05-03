@@ -82,7 +82,7 @@ $maxWidth: 1280;
 .footer {
   z-index: 0;
   position: relative;
-  margin-top: 70px;
+  margin-top: 200px;
   font-family: 'Mulish', sans-serif;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -95,6 +95,15 @@ $maxWidth: 1280;
   @include adaptiv-width(500, 300);
 }
 
+.PageThreeFooterBgrnd{
+  position: absolute;
+  width: 100%;
+  top: 80%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: -1;
+}
+
 .ex {
   position: relative;
   flex-direction: column;
@@ -102,7 +111,7 @@ $maxWidth: 1280;
 
 .btnText {
   font-weight: 900;
-  color: rgb(27 64 91);
+  color: white;
   @include adaptiv-font(30, 17)
 }
 
@@ -143,6 +152,11 @@ $maxWidth: 1280;
 }
 
 @media screen and (max-width: 1050px) {
+  .PageThreeFooterBgrnd{
+    width: 180%;
+    top: 60%;
+  }
+
   .Bgrnd {
     display: none;
   }
@@ -196,5 +210,3 @@ $maxWidth: 1280;
     font-size: 58px;
   }
 }
-
-// <a target="_blank" href="https://icons8.com/illustrations/illustration/60c86f0718a4be0001479493">App</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

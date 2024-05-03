@@ -118,7 +118,7 @@ function PageFour() {
   ]
 
   return (
-    <article style={{backgroundImage: "linear-gradient(85deg, #438abd, #071771)"}}>
+    <article style={{backgroundImage: "linear-gradient(1deg, rgb(67 223 217), rgb(0 61 95))"}}>
       <h1 className='our-works'>Наши работы</h1>
 
       <section className='karusel'>

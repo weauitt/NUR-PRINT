@@ -51,7 +51,7 @@
 .footer {
   z-index: 0;
   position: relative;
-  margin-top: 70px;
+  margin-top: 200px;
   font-family: "Mulish", sans-serif;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -66,6 +66,15 @@
   }
 }
 
+.PageThreeFooterBgrnd {
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
 .ex {
   position: relative;
   flex-direction: column;
@@ -73,7 +82,7 @@
 
 .btnText {
   font-weight: 900;
-  color: rgb(27, 64, 91);
+  color: white;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .btnText {
@@ -117,6 +126,10 @@
   }
 }
 @media screen and (max-width: 1050px) {
+  .PageThreeFooterBgrnd {
+    width: 180%;
+    top: 60%;
+  }
   .Bgrnd {
     display: none;
   }
