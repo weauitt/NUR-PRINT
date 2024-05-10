@@ -95,6 +95,11 @@ $maxWidth: 1280;
   @include adaptiv-width(500, 300);
 }
 
+.SkeletonIphoneInst{
+  width: 200px;
+  height: 400px;
+}
+
 .PageThreeFooterBgrnd{
   position: absolute;
   width: 100%;
@@ -173,14 +178,14 @@ $maxWidth: 1280;
 
 @media screen and (max-width: 969px) {
   .BgrndMob {
-    top: 44%;
+    top: 43%;
   }
 }
 
 
 @media screen and (max-width: 669px) {
   .BgrndMob {
-    top: 44%;
+    top: 42%;
   }
 
   .btnText {
@@ -195,7 +200,7 @@ $maxWidth: 1280;
 
 @media screen and (max-width: 361px) {
   .BgrndMob {
-    top: 43%;
+    top: 41%;
   }
 }
 

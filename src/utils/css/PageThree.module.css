@@ -66,6 +66,11 @@
   }
 }
 
+.SkeletonIphoneInst {
+  width: 200px;
+  height: 400px;
+}
+
 .PageThreeFooterBgrnd {
   position: absolute;
   width: 100%;
@@ -144,12 +149,12 @@
 }
 @media screen and (max-width: 969px) {
   .BgrndMob {
-    top: 44%;
+    top: 43%;
   }
 }
 @media screen and (max-width: 669px) {
   .BgrndMob {
-    top: 44%;
+    top: 42%;
   }
 }
 @media screen and (max-width: 669px) and (min-width: 10px) and (max-width: 1400px) {
@@ -169,7 +174,7 @@
 }
 @media screen and (max-width: 361px) {
   .BgrndMob {
-    top: 43%;
+    top: 41%;
   }
 }
 @media screen and (min-width: 1400px) {

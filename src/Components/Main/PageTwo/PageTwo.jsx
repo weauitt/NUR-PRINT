@@ -1,15 +1,22 @@
 import styles from '../../../utils/css/PageTwo.module.css'
 import Lightning from '../../../img/PageTwo/download_image_1711793596008.png'
 import end from '../../../img/PageTwo/Group 33.png'
+import { useInView } from "react-intersection-observer";
 
 function PageTwo() {
+  const { ref, inView} = useInView({
+    threshold: 0,
+  });
+
   return (
     <>
       <article className={styles.acticleTwo} >
         <section className={styles.Topic}>
           <h1 className={styles.NurPrint}>РЕКЛАМНО-ПРОИЗВОДСТВЕННАЯ КОМПАНИЯ NUR PRINT</h1>
         </section>
-        <img className={styles.Lightning} src={Lightning} alt="Lightning" />
+        <div ref={ref} className={styles.LazyLoad} > 
+        {inView ?  <img  className={styles.Lightning} src={Lightning} alt="Lightning" /> : ''}
+        </div>
         <section className={styles.WhatWeDo} id='WhatWeDo'>
           <header className={styles.TopicWhatWeDo}>Мы творим рекламные шедевры, вывески <br /> что олицетворяют ваш бизнес</header>
           <section className={styles.SectionOne}>
@@ -34,7 +41,7 @@ function PageTwo() {
           </section>
         </section>
       </article>
-      <img src={end} alt="end" className={styles.end} />
+        <img src={end} alt="end" className={styles.end} />
     </>
   )
 }

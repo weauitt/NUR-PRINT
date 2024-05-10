@@ -115,9 +115,27 @@ $maxWidth: 1280;
 .Lightning {
   z-index: -0;
   position: absolute;
-  transform: translateY(400px);
+  transform: translateY(400px) ;
   @include adaptiv-width(280, 150);
-  left: 30%
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.LazyLoad{
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.SkeletonLightning{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(85, 85, 85);
+  border-radius: 15px;
 }
 
 .SectionTwo {
@@ -179,6 +197,10 @@ $maxWidth: 1280;
 
 
 @media(max-width: 700px) {
+  .Lightning{
+    top: -50%;
+  }
+
   .SectionOne {
     flex-direction: column;
   }

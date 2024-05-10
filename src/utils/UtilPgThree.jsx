@@ -1,12 +1,16 @@
 import styles from '../utils/css/UtilPgThree.module.css'
-import NumOne from '..//img/PageThree/NumOne.svg'
-import NumTwo from '../img/PageThree/NumTwo.svg'
-import NumThree from '../img/PageThree/NumThree.svg'
-import NumFour from '../img/PageThree/NumFour.svg'
-import NumFive from '../img/PageThree/NumFive.svg'
-
+import NumOne from '..//img/PageThree/NumOne.webp'
+import NumTwo from '../img/PageThree/NumTwo.webp'
+import NumThree from '../img/PageThree/NumThree.webp'
+import NumFour from '../img/PageThree/NumFour.webp'
+import NumFive from '../img/PageThree/NumFive.webp'
+// import { useInView } from "react-intersection-observer";
 
 function UtilPgThree() {
+  // const { ref, inView } = useInView({
+  //   threshold: 0,
+  // });
+
   const Numbers = [
     {
       imgNum: NumTwo,
@@ -30,15 +34,15 @@ function UtilPgThree() {
     }
   ]
   return (
-    <div className={styles.Numbers}>
-       <section className={styles.Section}>
-          <img className={styles.img} src={NumOne} alt='Num' />
-          <h1 className={styles.NumTopic}>Оставьте заявку</h1>
-          <p className={styles.NumDesc}>Напишите нам на</p>
-          <a href="https://lyl.su/fn6" target="_blank" rel="noopener noreferrer">
-            <button className={styles.BtnWhatsApp}>WhatsApp</button>
-          </a>
-        </section>
+    <div className={styles.Numbers} >
+      <section className={styles.Section}>
+        <img className={styles.img} src={NumOne} alt='Num' />
+        <h1 className={styles.NumTopic}>Оставьте заявку</h1>
+        <p className={styles.NumDesc}>Напишите нам на</p>
+        <a href="https://lyl.su/fn6" target="_blank" rel="noopener noreferrer">
+          <button className={styles.BtnWhatsApp}>WhatsApp</button>
+        </a>
+      </section>
       {Numbers.map((num, i) => (
         <section className={styles.Section} key={i}>
           <img className={styles.img} src={num.imgNum} alt='Num' />

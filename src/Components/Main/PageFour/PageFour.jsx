@@ -12,8 +12,12 @@ import imgTen from '../../../img/PageFour/imgTen.jpg'
 import "./slick.css";
 import "./slick-theme.css";
 import Slider from 'react-slick';
+import { useInView } from "react-intersection-observer";
+
 
 function LeftArrow(props) {
+
+
   const { className, style, onClick } = props;
   return (
     <div
@@ -35,6 +39,9 @@ function RightArrow(props) {
 }
 
 function PageFour() {
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
   var settings = {
     dots: true,
     dotclass: "slick-slider slick-dots",
@@ -43,7 +50,7 @@ function PageFour() {
     slidesToShow: 3,
     slidesToScroll: 2,
     initialSlide: 0,
-    
+
     nextArrow: <RightArrow />,
     prevArrow: <LeftArrow />,
     responsive: [
@@ -118,14 +125,14 @@ function PageFour() {
   ]
 
   return (
-    <article style={{backgroundImage: "linear-gradient(1deg, rgb(67 223 217), rgb(0 61 95))"}}>
+    <article ref={ref} style={{ backgroundImage: "linear-gradient(1deg, rgb(67 223 217), rgb(0 61 95))" }}>
       <h1 className='our-works'>Наши работы</h1>
 
       <section className='karusel'>
         <Slider {...settings}   >
           {images.map(img => (
             <div key={img.id} >
-              <img src={img.img} alt={img.id} className='image' />
+              {inView ? <img src={img.img} alt={img.id} className='image' /> : ''}
             </div>
           ))}
         </Slider>

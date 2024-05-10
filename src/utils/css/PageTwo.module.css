@@ -107,12 +107,30 @@
   z-index: 0;
   position: absolute;
   transform: translateY(400px);
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .Lightning {
     width: calc(150px + 221 * (100vw - 300px) / 1280);
   }
+}
+
+.LazyLoad {
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.SkeletonLightning {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(85, 85, 85);
+  border-radius: 15px;
 }
 
 .SectionTwo {
@@ -182,6 +200,9 @@
 }
 
 @media (max-width: 700px) {
+  .Lightning {
+    top: -50%;
+  }
   .SectionOne {
     flex-direction: column;
   }
