@@ -125,10 +125,10 @@ function PageFour() {
   ]
 
   return (
-    <article ref={ref} style={{ backgroundImage: "linear-gradient(1deg, rgb(67 223 217), rgb(0 61 95))" }}>
+    <article  style={{ backgroundImage: "linear-gradient(1deg, rgb(67 223 217), rgb(0 61 95))" }}>
       <h1 className='our-works'>Наши работы</h1>
 
-      <section className='karusel'>
+      <section ref={ref} className='karusel'>
         <Slider {...settings}   >
           {images.map(img => (
             <div key={img.id} >

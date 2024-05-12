@@ -1,15 +1,22 @@
+import React from 'react'
 import PageOne from './PageOne/PageOne'
-import PageTwo from './PageTwo/PageTwo'
-import PageThree from './PageThree/PageThree'
-import PageFour from './PageFour/PageFour'
 import Footer from '../Footer/Footer'
 import SmoothScroll from '../../utils/SmoothScroll'
 import { useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import PageAboutUs from './PageAboutUs/PageAboutUs'
+import { lazy } from 'react';
 
-
+const PageAboutUs = lazy(() => import('./PageAboutUs/PageAboutUs'));
+const PageTwo = React.lazy(() =>
+  import('./PageTwo/PageTwo')
+)
+const PageThree = React.lazy(() =>
+  import('./PageThree/PageThree')
+)
+const PageFour = React.lazy(() =>
+  import('./PageFour/PageFour')
+)
 
 function Main() {
   const navigate = useNavigate();
@@ -20,18 +27,20 @@ function Main() {
 
   return (
     <SmoothScroll>
-    
+
       <Routes>
         <Route path="/" element={
           <main style={{ maxWidth: '1400px', margin: '0 auto' }}>
             <PageOne />
             <PageTwo />
-            <PageThree />
-            <PageFour />
+              <PageThree />
+              <PageFour />
           </main>}
         />
         <Route path="/PageAboutUs" element={
-          <PageAboutUs />}
+          <React.Suspense fallback={<p>Loading</p>}>
+            <PageAboutUs />
+          </React.Suspense >}
         />
       </Routes>
       <Footer />
