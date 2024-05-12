@@ -1,10 +1,19 @@
 {
   "files": {
-    "main.css": "/NUR-PRINT/static/css/main.61565a21.css",
-    "main.js": "/NUR-PRINT/static/js/main.1df45003.js",
-    "static/media/Project Name (14) — копия.png": "/NUR-PRINT/static/media/Project Name (14) — копия.72bfc991492d500910b7.png",
-    "static/media/download_image_1711793596008.png": "/NUR-PRINT/static/media/download_image_1711793596008.fda9a84d1b91607bfa16.png",
-    "static/media/Frame 3 (7).png": "/NUR-PRINT/static/media/Frame 3 (7).b70204d3c59ec0a910c1.png",
+    "main.css": "/NUR-PRINT/static/css/main.15224b1d.css",
+    "main.js": "/NUR-PRINT/static/js/main.4f0bd561.js",
+    "static/css/843.013bfdfb.chunk.css": "/NUR-PRINT/static/css/843.013bfdfb.chunk.css",
+    "static/js/843.e54a1160.chunk.js": "/NUR-PRINT/static/js/843.e54a1160.chunk.js",
+    "static/css/819.400bd4c9.chunk.css": "/NUR-PRINT/static/css/819.400bd4c9.chunk.css",
+    "static/js/819.6fabfc08.chunk.js": "/NUR-PRINT/static/js/819.6fabfc08.chunk.js",
+    "static/css/298.aa215d32.chunk.css": "/NUR-PRINT/static/css/298.aa215d32.chunk.css",
+    "static/js/298.f016689f.chunk.js": "/NUR-PRINT/static/js/298.f016689f.chunk.js",
+    "static/css/340.d17675d5.chunk.css": "/NUR-PRINT/static/css/340.d17675d5.chunk.css",
+    "static/js/340.1f89278a.chunk.js": "/NUR-PRINT/static/js/340.1f89278a.chunk.js",
+    "static/js/717.0a5a583a.chunk.js": "/NUR-PRINT/static/js/717.0a5a583a.chunk.js",
+    "static/media/Project-Name-_14_-—-копия.webp": "/NUR-PRINT/static/media/Project-Name-_14_-—-копия.219900750a777fd71aa3.webp",
+    "static/media/download_image_1711793596008.webp": "/NUR-PRINT/static/media/download_image_1711793596008.fecff339d2e78d2ec626.webp",
+    "static/media/Frame-3-_7_.webp": "/NUR-PRINT/static/media/Frame-3-_7_.1ca40c17836e27738eeb.webp",
     "static/media/Frame 2 (5).png": "/NUR-PRINT/static/media/Frame 2 (5).b871ad454d4b318ce3aa.png",
     "static/media/Wave SVG.png": "/NUR-PRINT/static/media/Wave SVG.d1a1171ce6c66af46ede.png",
     "static/media/imgOne.jpg": "/NUR-PRINT/static/media/imgOne.9e8596302a6d7e8d0aec.jpg",
@@ -28,11 +37,20 @@
     "static/media/tg.svg": "/NUR-PRINT/static/media/tg.a0e61050bd55fbf277943da02e370475.svg",
     "static/media/Subtract (2).svg": "/NUR-PRINT/static/media/Subtract (2).89a4dd0fdf873583ac44ae9a44694d09.svg",
     "index.html": "/NUR-PRINT/index.html",
-    "main.61565a21.css.map": "/NUR-PRINT/static/css/main.61565a21.css.map",
-    "main.1df45003.js.map": "/NUR-PRINT/static/js/main.1df45003.js.map"
+    "main.15224b1d.css.map": "/NUR-PRINT/static/css/main.15224b1d.css.map",
+    "main.4f0bd561.js.map": "/NUR-PRINT/static/js/main.4f0bd561.js.map",
+    "843.013bfdfb.chunk.css.map": "/NUR-PRINT/static/css/843.013bfdfb.chunk.css.map",
+    "843.e54a1160.chunk.js.map": "/NUR-PRINT/static/js/843.e54a1160.chunk.js.map",
+    "819.400bd4c9.chunk.css.map": "/NUR-PRINT/static/css/819.400bd4c9.chunk.css.map",
+    "819.6fabfc08.chunk.js.map": "/NUR-PRINT/static/js/819.6fabfc08.chunk.js.map",
+    "298.aa215d32.chunk.css.map": "/NUR-PRINT/static/css/298.aa215d32.chunk.css.map",
+    "298.f016689f.chunk.js.map": "/NUR-PRINT/static/js/298.f016689f.chunk.js.map",
+    "340.d17675d5.chunk.css.map": "/NUR-PRINT/static/css/340.d17675d5.chunk.css.map",
+    "340.1f89278a.chunk.js.map": "/NUR-PRINT/static/js/340.1f89278a.chunk.js.map",
+    "717.0a5a583a.chunk.js.map": "/NUR-PRINT/static/js/717.0a5a583a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61565a21.css",
-    "static/js/main.1df45003.js"
+    "static/css/main.15224b1d.css",
+    "static/js/main.4f0bd561.js"
   ]
 }
