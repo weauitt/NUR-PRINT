@@ -1,9 +1,9 @@
 import styles from '../utils/css/UtilPgThree.module.css'
 import NumOne from '..//img/PageThree/NumOne.webp'
-import NumTwo from '../img/PageThree/NumTwo.webp'
-import NumThree from '../img/PageThree/NumThree.webp'
-import NumFour from '../img/PageThree/NumFour.webp'
-import NumFive from '../img/PageThree/NumFive.webp'
+import NumTwo from '../img/PageThree/NumTwo_8_11zon.webp'
+import NumThree from '../img/PageThree/NumThree_7_11zon.webp'
+import NumFour from '../img/PageThree/NumFour_5_11zon.webp'
+import NumFive from '../img/PageThree/NumFive_11zon.webp'
 // import { useInView } from "react-intersection-observer";
 
 function UtilPgThree() {
