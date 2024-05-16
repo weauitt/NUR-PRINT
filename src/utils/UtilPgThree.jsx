@@ -34,10 +34,10 @@ function UtilPgThree() {
     }
   ]
   return (
-    <div className={styles.Numbers} >
+    <div aria-hidden="true" className={styles.Numbers} >
       <section className={styles.Section}>
         <img className={styles.img} src={NumOne} alt='Num' />
-        <h1 className={styles.NumTopic}>Оставьте заявку</h1>
+        <p className={styles.NumTopic}>Оставьте заявку</p>
         <p className={styles.NumDesc}>Напишите нам на</p>
         <a href="https://lyl.su/fn6" target="_blank" rel="noopener noreferrer">
           <button className={styles.BtnWhatsApp}>WhatsApp</button>
@@ -46,7 +46,7 @@ function UtilPgThree() {
       {Numbers.map((num, i) => (
         <section className={styles.Section} key={i}>
           <img className={styles.img} src={num.imgNum} alt='Num' />
-          <h1 className={styles.NumTopic}>{num.NumTopic}</h1>
+          <p className={styles.NumTopic}>{num.NumTopic}</p>
           <p className={styles.NumDesc}>{num.NumDesc}</p>
         </section>
       ))}

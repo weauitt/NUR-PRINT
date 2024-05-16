@@ -9,10 +9,10 @@ import PageThreeFooterBgrnd from '../../../img/PageThree/Subtract (2).svg'
 function PageThree() {
 
   return (
-    <article className={styles.articleThree}>
-      <h1 className={styles.HowWeWork} id='HowWeWork'>Как мы работаем</h1>
-      <img src={Bgrnd} alt="Bgrnd" className={styles.Bgrnd} />
-      <img src={BgrndMob} alt="BgrndMob" className={styles.BgrndMob} />
+    <article  aria-hidden="true" className={styles.articleThree} >
+      <h2 className={styles.HowWeWork} id='HowWeWork'>Как мы работаем</h2>
+      <img src={Bgrnd} alt="" className={styles.Bgrnd} />
+      <img src={BgrndMob} alt="" className={styles.BgrndMob} />
       <UtilPgThree />
       <footer className={styles.footer}  >
         <img className={styles.PageThreeFooterBgrnd} src={PageThreeFooterBgrnd} alt='PageThreeFooterBgrnd' />
@@ -23,7 +23,7 @@ function PageThree() {
             <button className={styles.BtnInst}>Instagram</button>
           </a>
         </div>
-        <img className={styles.IphoneInst} src={IphoneInst} alt='iphoneIcon' href={IphoneInst} />
+        <img className={styles.IphoneInst} src={IphoneInst} alt='' href={IphoneInst} />
 
       </footer>
 

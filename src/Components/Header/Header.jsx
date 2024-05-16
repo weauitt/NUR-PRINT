@@ -17,8 +17,8 @@ function Header() {
   return (
     <>
       <header className={styles.Header}>
-        <nav translate="no" className={burgerOpen ? [styles.logo, styles.activeLogo].join(' ') : [styles.logo]}>NUR PRINT</nav>
-        <section className={styles.AllNavigation}>
+        <p itemProp='logo' translate="no" className={burgerOpen ? [styles.logo, styles.activeLogo].join(' ') : [styles.logo]}>NUR PRINT</p>
+        <nav className={styles.AllNavigation}>
           <div className={burgerOpen ? [styles.burger, styles.active].join(' ') : [styles.burger]}>
             <ul className={burgerOpen ? [styles.Navigation, styles.activeNavigation].join(' ') : [styles.Navigation]}>
               <div style={{ display: "flex", margin: "10px" }}>
@@ -59,7 +59,7 @@ function Header() {
           <button className={styles.openHabmurger} onClick={() => { setBurgerOpen(!burgerOpen) }}>
             {burgerOpen ? <MdClose /> : <GiHamburgerMenu />}
           </button>
-        </section>
+        </nav>
         
       </header>
     </>

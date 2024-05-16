@@ -20,7 +20,7 @@ const icons = [
 
 function Footer() {
   return (
-    <footer className={styles.Footer}>
+    <footer aria-hidden="true" className={styles.Footer}>
       <div translate="no" className={styles.logo}>NUR PRINT</div>
       <section className={styles.OurContacts}>
         <p className={styles.OurContactsText} >Наши контакты</p>
@@ -37,7 +37,7 @@ function Footer() {
       <div className={styles.Icons}>
         {icons.map((icon, i) => (
           <a key={i} href={icon.link} target="_blank" rel="noopener noreferrer">
-            <img src={icon.img} className={styles.numbers} />
+            <img alt='' src={icon.img} className={styles.numbers} />
           </a>
         ))}
       </div>

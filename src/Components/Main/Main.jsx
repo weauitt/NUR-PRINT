@@ -43,7 +43,7 @@ function Main() {
           </React.Suspense >}
         />
       </Routes>
-      <Footer />
+      <Footer rel="nofollow" />
     </SmoothScroll>
   )
 }

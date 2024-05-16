@@ -6,7 +6,7 @@ function PageAboutUs() {
         <div className={styles.background}>
             <Link to={'/'} className={styles.logo}>NUR PRINT</Link>
             <article className={styles.History}>
-                <h1 className={styles.Topic}>Компания NUR PRINT</h1>
+                <p className={styles.Topic}>Компания NUR PRINT</p>
                 <section className={styles.HistoryText}>
                     <p className={styles.textOne}>Добро пожаловать в мир NUR PRINT – вашего надежного партнера в области рекламы, основанного семейным духом и творческим вдохновением!</p>
 

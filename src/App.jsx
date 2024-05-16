@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Main />
+      <Main itemscope itemtype="https://schema.org/Product"/>
     </>
   );
 }

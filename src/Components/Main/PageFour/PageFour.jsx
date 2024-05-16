@@ -125,14 +125,14 @@ function PageFour() {
   ]
 
   return (
-    <article  style={{ backgroundImage: "linear-gradient(1deg, rgb(67 223 217), rgb(0 61 95))" }}>
-      <h1 className='our-works'>Наши работы</h1>
+    <article  style={{ backgroundImage: "linear-gradient(1deg, rgb(67 223 217), rgb(0 61 95))", boxShadow: "0px -5px 5px 0px white" }}>
+      <p className='our-works'>Наши работы</p>
 
       <section ref={ref} className='karusel'>
         <Slider {...settings}   >
           {images.map(img => (
             <div key={img.id} >
-              {inView ? <img src={img.img} alt={img.id} className='image' /> : ''}
+              {inView ? <img src={img.img} className='image' alt="Баннеры бишкек" itemProp='image' /> : ''}
             </div>
           ))}
         </Slider>
