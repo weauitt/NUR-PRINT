@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .Background {
   width: 100%;
   position: absolute;
@@ -10,7 +9,7 @@
      object-fit: cover;
 }
 
-.Header {
+.MainText {
   font-family: "Nunito Sans", sans-serif;
   font-size: 40px;
   display: flex;
@@ -19,12 +18,6 @@
   height: 750px;
   position: relative;
   overflow: hidden;
-}
-
-.PodHeader {
-  font-family: "Mulish", sans-serif;
-  font-size: 22px;
-  height: 100px;
 }
 
 .nurPrint {
@@ -56,7 +49,6 @@
 }
 .nurPrint .nurPrintPodText {
   margin-left: 10px;
-  font-family: "Nunito Sans", sans-serif;
   font-size: 25px;
   color: white;
 }
@@ -80,7 +72,6 @@
   z-index: -1;
   position: absolute;
   top: 50%;
-  /* Перемещаем элемент на 50% от верхнего края родительского контейнера */
   left: 50%;
   transform: translate(-50%, -50%);
 }

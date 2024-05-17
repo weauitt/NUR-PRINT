@@ -3,6 +3,7 @@
   text-align: center;
   overflow: hidden;
   padding-top: 2em;
+  font-family: "Mulish", sans-serif;
 }
 
 .HowWeWork {
@@ -12,7 +13,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Mulish", sans-serif;
   margin-top: 80px;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
@@ -52,7 +52,6 @@
   z-index: 0;
   position: relative;
   margin-top: 200px;
-  font-family: "Mulish", sans-serif;
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
@@ -91,7 +90,6 @@
 }
 
 .BtnInst {
-  font-family: "Mulish", sans-serif;
   margin-top: 10px;
   padding: 15px 20px;
   background: rgb(41, 51, 86);
@@ -104,7 +102,6 @@
 }
 
 .BtnWhatsApp {
-  font-family: "Mulish", sans-serif;
   margin-top: 7px;
   padding: 10px 15px;
   background: rgb(29, 31, 38);

@@ -1,6 +1,6 @@
 import styles from '../../../utils/css/PageTwo.module.css'
 import Lightning from '../../../img/PageTwo/download_image_1711793596008.webp'
-import end from '../../../img/PageTwo/Group 33.png'
+import end from '../../../img/PageTwo/Group 33.webp'
 import { useInView } from "react-intersection-observer";
 
 function PageTwo() {

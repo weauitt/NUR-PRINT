@@ -3,7 +3,7 @@ import UtilPgThree from '../../../utils/UtilPgThree'
 import IphoneInst from '../../../img/PageThree/Project-Name-_14_-—-копия_9.webp'
 import Bgrnd from '../../../img/PageThree/Frame-2-_5__11zon (2).webp'
 import BgrndMob from '../../../img/PageThree/Frame-3-_7__11zon.webp'
-import PageThreeFooterBgrnd from '../../../img/PageThree/Subtract (2).svg'
+import PageThreeFooterBgrnd from '../../../img/PageThree/Subtract (2).webp'
 
 
 function PageThree() {

@@ -50,6 +50,7 @@ $maxWidth: 1280;
   text-align: center;
   overflow: hidden;
   padding-top: 2em;
+  font-family: 'Mulish', sans-serif;
 }
 
 .HowWeWork {
@@ -59,7 +60,6 @@ $maxWidth: 1280;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Mulish', sans-serif;
   margin-top: 80px;
   @include adaptiv-font(65, 30);
 }
@@ -83,7 +83,6 @@ $maxWidth: 1280;
   z-index: 0;
   position: relative;
   margin-top: 200px;
-  font-family: 'Mulish', sans-serif;
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
@@ -95,12 +94,12 @@ $maxWidth: 1280;
   @include adaptiv-width(500, 300);
 }
 
-.PageThreeFooterBgrnd{
+.PageThreeFooterBgrnd {
   position: absolute;
   width: 100%;
-  top: 80%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 
@@ -116,7 +115,6 @@ $maxWidth: 1280;
 }
 
 .BtnInst {
-  font-family: 'Mulish', sans-serif;
   margin-top: 10px;
   padding: 15px 20px;
   background: rgba(41 51 86);
@@ -129,7 +127,6 @@ $maxWidth: 1280;
 }
 
 .BtnWhatsApp {
-  font-family: 'Mulish', sans-serif;
   margin-top: 7px;
   padding: 10px 15px;
   background: rgba(29, 31, 38);
@@ -152,7 +149,7 @@ $maxWidth: 1280;
 }
 
 @media screen and (max-width: 1050px) {
-  .PageThreeFooterBgrnd{
+  .PageThreeFooterBgrnd {
     width: 180%;
     top: 60%;
   }

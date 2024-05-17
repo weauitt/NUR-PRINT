@@ -31,6 +31,7 @@ $maxWidth: 1280;
   overflow: hidden;
   position: relative;
   background-image: linear-gradient(0deg, rgb(57 66 84), rgb(15 21 46));
+  font-family: 'Mulish', sans-serif;
 }
 
 .Topic {
@@ -38,7 +39,6 @@ $maxWidth: 1280;
 }
 
 .NurPrint {
-  font-family: 'Mulish', sans-serif;
   font-weight: 800;
   font-size: 55px;
   color: antiquewhite;
@@ -55,7 +55,6 @@ $maxWidth: 1280;
 }
 
 .TopicWhatWeDo {
-  font-family: 'Mulish', sans-serif;
   text-align: center;
   font-weight: bold;
   position: relative;
@@ -80,13 +79,11 @@ $maxWidth: 1280;
 
   .TopicChapterOne {
     color: white;
-    font-family: 'Mulish', sans-serif;
     @include adaptiv-font(23, 11);
   }
 
   .DescChapterOne {
     margin-top: 15px;
-    font-family: 'Mulish', sans-serif;
     @include adaptiv-font(14, 9);
   }
 }
@@ -100,14 +97,12 @@ $maxWidth: 1280;
 
   .TopicChapterTwo {
     color: white;
-    font-family: 'Mulish', sans-serif;
     @include adaptiv-font(23, 11);
   }
 
   .DescChapterTwo {
     font-size: 17px;
     margin-top: 15px;
-    font-family: 'Mulish', sans-serif;
     @include adaptiv-font(14, 9);
   }
 }
@@ -155,13 +150,11 @@ $maxWidth: 1280;
 
   .TopicChapterThree {
     color: white;
-    font-family: 'Mulish', sans-serif;
     @include adaptiv-font(23, 11);
   }
 
   .DescChapterThree {
     margin-top: 15px;
-    font-family: 'Mulish', sans-serif;
     @include adaptiv-font(14, 9);
   }
 }
@@ -175,14 +168,12 @@ $maxWidth: 1280;
 
   .TopicChapterFour {
     color: white;
-    font-family: 'Mulish', sans-serif;
     @include adaptiv-font(23, 15);
   }
 
   .DescChapterFour {
     font-size: 17px;
     margin-top: 15px;
-    font-family: 'Mulish', sans-serif;
     @include adaptiv-font(14, 9);
   }
 }

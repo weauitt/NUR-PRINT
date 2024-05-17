@@ -1,19 +1,22 @@
 import React from 'react'
 import styles from '../../utils/css/Header.module.css'
-import Inst from '../../img/Header/inst.svg'
-import Tg from '../../img/Header/tg.svg'
-import WhtsApp from '../../img/Header/whatsapp.svg'
+import Inst from '../../img/Header/inst.webp'
+import Tg from '../../img/Header/tg.webp'
+import WhtsApp from '../../img/Header/whatsapp.webp'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { HiUserGroup, HiOutlineBadgeCheck, HiRefresh } from "react-icons/hi";
 import { Link } from 'react-scroll';
 import { Link as LinkRouter } from 'react-router-dom';
+import { useInView } from "react-intersection-observer";
 
 
 function Header() {
 
   const [burgerOpen, setBurgerOpen] = React.useState(false)
-
+  const { ref, inView} = useInView({
+    threshold: 0,
+  });
   return (
     <>
       <header className={styles.Header}>
@@ -42,16 +45,16 @@ function Header() {
                 </Link>
               </div>
             </ul>
-            <div className={burgerOpen ? [styles.NavFour, styles.activeNavFour].join(' ') : [styles.NavFour]}>Правовая информация</div>
+            <div ref={ref} className={burgerOpen ? [styles.NavFour, styles.activeNavFour].join(' ') : [styles.NavFour]}>Правовая информация</div>
             <section className={burgerOpen ? styles.activeContacts : styles.Contacts}>
               <a href="https://lyl.su/fn6" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto', marginBottom: "5px" }}>
-                <img src={WhtsApp} alt='WhatsApp' className={styles.WhtsApp} />
+                {inView ? <img src={WhtsApp} alt='WhatsApp' className={styles.WhtsApp} /> : ''}
               </a>
               <a href=" https://www.instagram.com/nurprint_kg/" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto', marginBottom: "5px" }}>
-                <img src={Inst} alt='Instagram' className={styles.Inst} />
+                {inView ?   <img src={Inst} alt='Instagram' className={styles.Inst} /> : ''}
               </a>
               <a href=" https://t.me/wequit1/" style={{ cursor: 'auto', width: "47px", marginBottom: "5px" }}>
-                <img src={Tg} alt='Telegram' className={styles.Tg} />
+                {inView ?   <img src={Tg} alt='Telegram' className={styles.Tg} /> : ''}
               </a>
             </section>
           </div>

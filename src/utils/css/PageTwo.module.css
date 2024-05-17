@@ -2,6 +2,7 @@
   overflow: hidden;
   position: relative;
   background-image: linear-gradient(0deg, rgb(57, 66, 84), rgb(15, 21, 46));
+  font-family: "Mulish", sans-serif;
 }
 
 .Topic {
@@ -9,7 +10,6 @@
 }
 
 .NurPrint {
-  font-family: "Mulish", sans-serif;
   font-weight: 800;
   font-size: 55px;
   color: antiquewhite;
@@ -30,7 +30,6 @@
 }
 
 .TopicWhatWeDo {
-  font-family: "Mulish", sans-serif;
   text-align: center;
   font-weight: bold;
   position: relative;
@@ -59,7 +58,6 @@
 }
 .ChapterOne .TopicChapterOne {
   color: white;
-  font-family: "Mulish", sans-serif;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .ChapterOne .TopicChapterOne {
@@ -68,7 +66,6 @@
 }
 .ChapterOne .DescChapterOne {
   margin-top: 15px;
-  font-family: "Mulish", sans-serif;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .ChapterOne .DescChapterOne {
@@ -85,7 +82,6 @@
 }
 .ChapterTwo .TopicChapterTwo {
   color: white;
-  font-family: "Mulish", sans-serif;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .ChapterTwo .TopicChapterTwo {
@@ -95,7 +91,6 @@
 .ChapterTwo .DescChapterTwo {
   font-size: 17px;
   margin-top: 15px;
-  font-family: "Mulish", sans-serif;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .ChapterTwo .DescChapterTwo {
@@ -150,7 +145,6 @@
 }
 .ChapterThree .TopicChapterThree {
   color: white;
-  font-family: "Mulish", sans-serif;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .ChapterThree .TopicChapterThree {
@@ -159,7 +153,6 @@
 }
 .ChapterThree .DescChapterThree {
   margin-top: 15px;
-  font-family: "Mulish", sans-serif;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .ChapterThree .DescChapterThree {
@@ -176,7 +169,6 @@
 }
 .ChapterFour .TopicChapterFour {
   color: white;
-  font-family: "Mulish", sans-serif;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .ChapterFour .TopicChapterFour {
@@ -186,7 +178,6 @@
 .ChapterFour .DescChapterFour {
   font-size: 17px;
   margin-top: 15px;
-  font-family: "Mulish", sans-serif;
 }
 @media (min-width: 10px) and (max-width: 1400px) {
   .ChapterFour .DescChapterFour {

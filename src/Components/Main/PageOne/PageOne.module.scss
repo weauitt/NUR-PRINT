@@ -37,7 +37,7 @@ $maxWidth: 1280;
   object-fit: cover;
 }
 
-.Header {
+.MainText {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 40px;
   display: flex;
@@ -46,12 +46,6 @@ $maxWidth: 1280;
   height: 750px;
   position: relative;
   overflow: hidden;
-}
-
-.PodHeader {
-  font-family: 'Mulish', sans-serif;
-  font-size: 22px;
-  height: 100px;
 }
 
 .nurPrint {
@@ -76,7 +70,6 @@ $maxWidth: 1280;
 
   .nurPrintPodText {
     margin-left: 10px;
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 25px;
     color: white;
     @include adaptiv-font(20, 14);
@@ -94,7 +87,6 @@ $maxWidth: 1280;
   z-index: -1;
   position: absolute;
   top: 50%;
-  /* Перемещаем элемент на 50% от верхнего края родительского контейнера */
   left: 50%;
   transform: translate(-50%, -50%);
 }

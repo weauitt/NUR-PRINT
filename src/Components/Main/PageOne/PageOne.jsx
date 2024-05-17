@@ -1,6 +1,6 @@
 import styles from '../../../utils/css/PageOne.module.css'
 import Header from '../../Header/Header';
-import Background from '../../../img/PageOne/Wave SVG.png'
+import Background from '../../../img/PageOne/Wave SVG.webp'
 
 function PageOne() {
 
@@ -9,7 +9,7 @@ function PageOne() {
       <Header />
       <article style={{ overflow: 'hidden', position: 'relative' }}>
         <img className={styles.Background} alt="" src={Background} />
-        <section className={styles.Header}>
+        <section className={styles.MainText}>
           <section className={styles.nurPrint}>
             <p itemProp='name' translate="no" className={styles.nurPrintText}>NUR PRINT</p>
             <h1 itemProp='description' className={styles.nurPrintPodText}>Объемные буквы, Баннеры, Стенды</h1>
