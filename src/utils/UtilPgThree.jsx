@@ -4,13 +4,9 @@ import NumTwo from '../img/PageThree/NumTwo_8_11zon.webp'
 import NumThree from '../img/PageThree/NumThree_7_11zon.webp'
 import NumFour from '../img/PageThree/NumFour_5_11zon.webp'
 import NumFive from '../img/PageThree/NumFive_11zon.webp'
-// import { useInView } from "react-intersection-observer";
 
 function UtilPgThree() {
-  // const { ref, inView } = useInView({
-  //   threshold: 0,
-  // });
-
+ 
   const Numbers = [
     {
       imgNum: NumTwo,

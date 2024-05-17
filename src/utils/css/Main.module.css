@@ -1,8 +1,12 @@
 .Loading {
-  width: 100%;
-  height: 100vw;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 1px;
+  background-color: rgba(152, 205, 255, 0.945);
+  border-radius: 30px;
+  padding: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }/*# sourceMappingURL=Main.module.css.map */

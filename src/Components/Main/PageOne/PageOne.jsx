@@ -1,6 +1,6 @@
 import styles from '../../../utils/css/PageOne.module.css'
 import Header from '../../Header/Header';
-import Background from '../../../img/PageOne/Wave SVG.webp'
+import Background from '../../../img/PageOne/Wave SVG (1).png'
 
 function PageOne() {
 

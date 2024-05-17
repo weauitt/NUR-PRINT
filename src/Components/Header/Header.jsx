@@ -19,7 +19,7 @@ function Header() {
   });
   return (
     <>
-      <header className={styles.Header}>
+      <header className={styles.Header} ref={ref}>
         <p itemProp='logo' translate="no" className={burgerOpen ? [styles.logo, styles.activeLogo].join(' ') : [styles.logo]}>NUR PRINT</p>
         <nav className={styles.AllNavigation}>
           <div className={burgerOpen ? [styles.burger, styles.active].join(' ') : [styles.burger]}>
@@ -45,15 +45,15 @@ function Header() {
                 </Link>
               </div>
             </ul>
-            <div ref={ref} className={burgerOpen ? [styles.NavFour, styles.activeNavFour].join(' ') : [styles.NavFour]}>Правовая информация</div>
+            <div className={burgerOpen ? [styles.NavFour, styles.activeNavFour].join(' ') : [styles.NavFour]}>Правовая информация</div>
             <section className={burgerOpen ? styles.activeContacts : styles.Contacts}>
-              <a href="https://lyl.su/fn6" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto', marginBottom: "5px" }}>
+              <a href="https://wa.me/+996707735510" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto', marginBottom: "5px" }}>
                 {inView ? <img src={WhtsApp} alt='WhatsApp' className={styles.WhtsApp} /> : ''}
               </a>
-              <a href=" https://www.instagram.com/nurprint_kg/" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto', marginBottom: "5px" }}>
+              <a href="https://www.instagram.com/nurprint_kg/" target="_blank" rel="noopener noreferrer" style={{ cursor: 'auto', marginBottom: "5px" }}>
                 {inView ?   <img src={Inst} alt='Instagram' className={styles.Inst} /> : ''}
               </a>
-              <a href=" https://t.me/wequit1/" style={{ cursor: 'auto', width: "47px", marginBottom: "5px" }}>
+              <a href=" https://t.me/+996707735510/" style={{ cursor: 'auto', width: "47px", marginBottom: "5px" }}>
                 {inView ?   <img src={Tg} alt='Telegram' className={styles.Tg} /> : ''}
               </a>
             </section>

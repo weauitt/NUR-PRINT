@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { lazy } from 'react';
+import { Bars   } from 'react-loading-icons';
 
 const PageAboutUs = lazy(() => import('./PageAboutUs/PageAboutUs'));
 const PageOne = React.lazy(() => import('./PageOne/PageOne'))
@@ -20,7 +21,7 @@ function Main() {
   }, []);
 
   return (
-    <React.Suspense fallback={<div className={styles.Loading}>Loading...</div>}>
+    <React.Suspense fallback={<div className={styles.test}><Bars stroke="#00000" className={styles.Loading}>Loading...</Bars  > </div>}>
       <Routes>
         <Route path="/" element={
           <main style={{ maxWidth: '1400px', margin: '0 auto', position: "relative" }}>
