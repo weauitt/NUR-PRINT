@@ -42,6 +42,7 @@ function PageFour() {
   const { ref, inView } = useInView({
     threshold: 0,
   });
+  
   var settings = {
     dots: true,
     dotclass: "slick-slider slick-dots",

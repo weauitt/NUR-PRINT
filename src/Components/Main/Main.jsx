@@ -30,11 +30,12 @@ function Main() {
               <PageTwo />
               <PageThree />
               <PageFour />
+              <PageFour />
             </React.Suspense>
           </main>}
         />
         <Route path="/PageAboutUs" element={
-          <React.Suspense fallback={<p>Loading</p>}>
+          <React.Suspense fallback={<Bars stroke="#00000" className={styles.Loading}>Loading...</Bars  >}>
             <PageAboutUs />
           </React.Suspense >}
         />
