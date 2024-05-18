@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /
 Disallow: /PageAboutUs
-Host: #host
+Host: https://nur-print.vercel.app/
