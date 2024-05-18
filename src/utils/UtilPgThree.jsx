@@ -30,7 +30,7 @@ function UtilPgThree() {
     }
   ]
   return (
-    <div aria-hidden="true" className={styles.Numbers} >
+    <div className={styles.Numbers} >
       <section className={styles.Section}>
         <img className={styles.img} src={NumOne} alt='Num' />
         <p className={styles.NumTopic}>Оставьте заявку</p>

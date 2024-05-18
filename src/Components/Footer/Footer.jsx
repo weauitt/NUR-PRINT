@@ -20,7 +20,7 @@ const icons = [
 
 function Footer() {
   return (
-    <footer aria-hidden="true" className={styles.Footer} >
+    <footer className={styles.Footer} >
       <div translate="no" className={styles.logo}>NUR PRINT</div>
       <section className={styles.OurContacts}>
         <p className={styles.OurContactsText} >Наши контакты</p>
@@ -29,7 +29,7 @@ function Footer() {
       <section className={styles.Desc}>
         <p style={{ opacity: "0.7" }}>Привносим идеи в реальность. Ваш успех — наша реклама.<br /> Доверьте ваш бренд профессионалам. Nur Print — для яркого будущего.</p>
       </section>
-      <div className={styles.IconsLisence}> <a rel='nofollow' style={{ color: "white" }} target="_blank" href="https://icons8.com/illustrations/illustration/62bf41a9123f10000139bbcf">App</a> icon by <a style={{ color: "white" }} target="_blank" href="https://icons8.com" rel='nofollow'>Icons8</a></div>
+      <div className={styles.IconsLisence}> <a rel='nofollow' style={{ color: "white" }} target="_blank" href="https://icons8.com/illustrations/illustration/62bf41a9123f10000139bbcf">App</a> icon by <a rel='nofollow' style={{ color: "white" }} target="_blank" href="https://icons8.com" >Icons8</a></div>
 
       <div className={styles.Copyright}>
         <LuCopyright />
@@ -37,7 +37,7 @@ function Footer() {
       <div className={styles.Icons}>
         {icons.map((icon, i) => (
           <a key={i} href={icon.link} target="_blank" rel="noopener noreferrer">
-          <img alt='' src={icon.img} className={styles.numbers} /> 
+            <img alt='' src={icon.img} className={styles.numbers} />
           </a>
         ))}
       </div>
