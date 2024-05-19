@@ -42,7 +42,7 @@ function PageFour() {
   const { ref, inView } = useInView({
     threshold: 0,
   });
-  
+
   var settings = {
     dots: true,
     dotclass: "slick-slider slick-dots",
@@ -127,9 +127,9 @@ function PageFour() {
 
   return (
     <article  style={{ backgroundImage: "linear-gradient(1deg, rgb(67 223 217), rgb(0 61 95))", boxShadow: "0px -5px 5px 0px white" }}>
-      <p className='our-works'>Наши работы</p>
 
       <section ref={ref} className='karusel'>
+      <p className='our-works'>Наши работы</p>
         <Slider {...settings}   >
           {images.map(img => (
             <div key={img.id} >
@@ -138,6 +138,7 @@ function PageFour() {
           ))}
         </Slider>
       </section>
+     
 
     </article>
   );

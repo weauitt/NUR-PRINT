@@ -30,7 +30,6 @@ function Main() {
               <PageTwo />
               <PageThree />
               <PageFour />
-              <PageFour />
             </React.Suspense>
           </main>}
         />
